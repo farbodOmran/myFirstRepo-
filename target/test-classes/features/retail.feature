@@ -8,7 +8,7 @@ Feature: This feature is use for testing UI of Retail page
     Then blew option are present in Shop by Department sidebar
       | Electronics | Computers | Smart Home | Sports | Automative |
 
-  @test
+  
   Scenario Outline: Varify department sidebar options
     When User click on All Section
     And User on '<department>'

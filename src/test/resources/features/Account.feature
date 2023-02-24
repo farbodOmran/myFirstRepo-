@@ -36,6 +36,7 @@ Feature: Retail Account Page
     And User click on Update Your Card button
     Then a massage should be displayed 'Payment Method updated Successfully'
 
+  @test
   Scenario: Varify user can remove Debit or Credit card
     When User click on remove option
     And User click on remove option of card section
@@ -44,16 +45,14 @@ Feature: Retail Account Page
   Scenario: Varify user can add an Address
     When User click on Add address option
     And User fill new address form with belew information
-      | country       | fullName     | phoneNumber | streetAddress   | apt | city        | state      | zipCode |
-      | United States | FarbodOmrani |  4167654325 | 30 Brumstead Dr |  45 | Los Angeles | California |   34543 |
+      | country | fullName | PhoneNumber | StreetAddress | apt | city | state | zipCode |
     And User click Add Your Address button
     Then a massage should be displayed 'Address added successfully'
 
   Scenario: Varify User can edit an Address added on account
     When User click on edit address option
     And User fill new address form with below information
-      | country | fullName    | phoneNumber | streetAddress   | apt | city    | state   | zipCode |
-      | Canada  | FarbodOmran |  4169191456 | 30 Brumstead Dr |  48 | Toronto | Ontario |   45263 |
+      | country | fullName | PhoneNumber | StreetAddress | apt | city | state | zipCode |
     And User click update Your Address button
     Then a massage should be displayed 'Address Updatet Successfully'
 

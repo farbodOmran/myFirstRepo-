@@ -1,5 +1,6 @@
 package tek.capstone.framework.steps;
 
+import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.Map;
 
@@ -11,6 +12,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import tek.capstone.framework.pages.POMFactory;
 import tek.capstone.framework.utilities.CommonUtility;
+import tek.capstone.framework.utilities.DataGeneratorUtility;
 
 public class AccountPageSteps extends CommonUtility {
 
@@ -65,21 +67,21 @@ public class AccountPageSteps extends CommonUtility {
 
 	@Then("a massage should be displayed {string}")
 	public void aMassageShouldBeDisplayed(String string) {
-//		waitTillPresence(factory.accountPage().changePasswordMassage);
-//		Assert.assertTrue(isElementDisplayed(factory.accountPage().changePasswordMassage));
-//		logger.info("user can see the massage: Password Updated Successfully");
+		waitTillPresence(factory.accountPage().changePasswordMassage);
+		Assert.assertTrue(isElementDisplayed(factory.accountPage().changePasswordMassage));
+		logger.info("user can see the massage: Password Updated Successfully");
 
-//		waitTillClickable(factory.accountPage().paymentMethodMassageDidplayed);
-//		Assert.assertTrue(isElementDisplayed(factory.accountPage().paymentMethodMassageDidplayed));
-//		logger.info("user can see the massage: Card added Successfully");
+		waitTillClickable(factory.accountPage().paymentMethodMassageDidplayed);
+		Assert.assertTrue(isElementDisplayed(factory.accountPage().paymentMethodMassageDidplayed));
+		logger.info("user can see the massage: Card added Successfully");
 
-//		waitTillPresence(factory.accountPage().editDebitOrCreditCardMassageDidplayed);
-//		Assert.assertTrue(isElementDisplayed(factory.accountPage().editDebitOrCreditCardMassageDidplayed));
-//		logger.info("User successfully edited Debit or Credit Card information");
+		waitTillPresence(factory.accountPage().editDebitOrCreditCardMassageDidplayed);
+		Assert.assertTrue(isElementDisplayed(factory.accountPage().editDebitOrCreditCardMassageDidplayed));
+		logger.info("User successfully edited Debit or Credit Card information");
 
-//		waitTillPresence(factory.accountPage().addressAddeMassageBar);
-//		Assert.assertTrue(isElementDisplayed(factory.accountPage().addressAddeMassageBar));
-//		logger.info("User successfully added address");
+		waitTillPresence(factory.accountPage().addressAddeMassageBar);
+		Assert.assertTrue(isElementDisplayed(factory.accountPage().addressAddeMassageBar));
+		logger.info("User successfully added address");
 
 		waitTillPresence(factory.accountPage().editressAddeMassageBar);
 		Assert.assertTrue(isElementDisplayed(factory.accountPage().editressAddeMassageBar));
@@ -156,7 +158,11 @@ public class AccountPageSteps extends CommonUtility {
 
 	@When("payment details should be removed")
 	public void paymentDetailsShouldBeRemoved() {
-
+		Assert.assertFalse(isElementDisplayed(factory.accountPage().cardRemoveOption));
+		try {
+			logger.info("user remove the card successfully");
+		} catch (Exception e) {
+		}
 	}
 
 	@When("User click on Add address option")
@@ -168,18 +174,24 @@ public class AccountPageSteps extends CommonUtility {
 
 	@When("User fill new address form with belew information")
 	public void userFillNewAddressFormWithBelewInformation(DataTable dataTable) {
-		List<Map<String, String>> addressField = dataTable.asMaps(String.class, String.class);
-		Select countrySelection = new Select(factory.accountPage().addCountryInAddressField);
-		countrySelection.selectByValue(addressField.get(0).get("country"));
-		sendText(factory.accountPage().addFullNameInAddressField, addressField.get(0).get("fullName"));
-		sendText(factory.accountPage().addPhoneNumberInAddressField, addressField.get(0).get("phoneNumber"));
-		sendText(factory.accountPage().addAddressInAddressField, addressField.get(0).get("streetAddress"));
-		sendText(factory.accountPage().addAptInAddressField, addressField.get(0).get("apt"));
-		sendText(factory.accountPage().addCityInAddressField, addressField.get(0).get("city"));
-		Select stateField = new Select(factory.accountPage().addStateInAddressField);
-		stateField.selectByValue(addressField.get(0).get("state"));
-		sendText(factory.accountPage().addZipCodeInAddressField, addressField.get(0).get("zipCode"));
-		logger.info("User fill the address form");
+
+		List<List<String>> addAddressField = dataTable.asLists(String.class);
+		selectByVisibleText(factory.accountPage().addCountryInAddressField,
+				DataGeneratorUtility.data(addAddressField.get(0).get(0)));
+		sendText(factory.accountPage().addFullNameInAddressField,
+				DataGeneratorUtility.data(addAddressField.get(0).get(1)));
+		sendText(factory.accountPage().addPhoneNumberInAddressField,
+				DataGeneratorUtility.data(addAddressField.get(0).get(2)));
+		sendText(factory.accountPage().addAddressInAddressField,
+				DataGeneratorUtility.data(addAddressField.get(0).get(3)));
+		sendText(factory.accountPage().addAptInAddressField, DataGeneratorUtility.data(addAddressField.get(0).get(4)));
+		sendText(factory.accountPage().addCityInAddressField, DataGeneratorUtility.data(addAddressField.get(0).get(5)));
+		selectByValue(factory.accountPage().addStateInAddressField,
+				DataGeneratorUtility.data(addAddressField.get(0).get(6)));
+		sendText(factory.accountPage().addZipCodeInAddressField,
+				DataGeneratorUtility.data(addAddressField.get(0).get(7)));
+		logger.info("user fill the address section based on faker class data");
+
 	}
 
 	@When("User click Add Your Address button")
@@ -196,21 +208,30 @@ public class AccountPageSteps extends CommonUtility {
 
 	@When("User fill new address form with below information")
 	public void userFillNewAddressFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
-		List<Map<String, String>> editAddressField = dataTable.asMaps(String.class, String.class);
-		Select editCountyField = new Select(factory.accountPage().editCountryInAddressField);
-		editCountyField.selectByValue(editAddressField.get(0).get("country"));
+		List<List<String>> editAddressField = dataTable.asLists(String.class);
+
+		selectByValue(factory.accountPage().editCountryInAddressField,
+				DataGeneratorUtility.data(editAddressField.get(0).get(0)));
 		clearTextUsingSendKeys(factory.accountPage().editFullNameInAddressField);
-		sendText(factory.accountPage().editFullNameInAddressField, editAddressField.get(0).get("fullName"));
+		sendText(factory.accountPage().editFullNameInAddressField,
+				DataGeneratorUtility.data(editAddressField.get(0).get(1)));
+		clearTextUsingSendKeys(factory.accountPage().editPhoneNumberInAddressField);
+		sendText(factory.accountPage().editPhoneNumberInAddressField,
+				DataGeneratorUtility.data(editAddressField.get(0).get(2)));
 		clearTextUsingSendKeys(factory.accountPage().editAddressInAddressField);
-		sendText(factory.accountPage().editAddressInAddressField, editAddressField.get(0).get("streetAddress"));
+		sendText(factory.accountPage().editAddressInAddressField,
+				DataGeneratorUtility.data(editAddressField.get(0).get(3)));
 		clearTextUsingSendKeys(factory.accountPage().editAptInAddressField);
-		sendText(factory.accountPage().editAptInAddressField, editAddressField.get(0).get("apt"));
+		sendText(factory.accountPage().editAptInAddressField,
+				DataGeneratorUtility.data(editAddressField.get(0).get(4)));
 		clearTextUsingSendKeys(factory.accountPage().editCityInAddressField);
-		sendText(factory.accountPage().editCityInAddressField, editAddressField.get(0).get("city"));
-		Select editStateField = new Select(factory.accountPage().editStateInAddressField);
-		editStateField.selectByValue(editAddressField.get(0).get("state"));
+		sendText(factory.accountPage().editCityInAddressField,
+				DataGeneratorUtility.data(editAddressField.get(0).get(5)));
+		selectByValue(factory.accountPage().editStateInAddressField,
+				DataGeneratorUtility.data(editAddressField.get(0).get(6)));
 		clearTextUsingSendKeys(factory.accountPage().editZipCodeInAddressField);
-		sendText(factory.accountPage().editZipCodeInAddressField, editAddressField.get(0).get("zipCode"));
+		sendText(factory.accountPage().editZipCodeInAddressField,
+				DataGeneratorUtility.data(editAddressField.get(0).get(7)));
 		logger.info("User fill the new information for updating address");
 	}
 
