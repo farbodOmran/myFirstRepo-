@@ -6,12 +6,15 @@ public class DataGeneratorUtility {
         System.out.println(data("firstName"));
         System.out.println(data("lastName"));
         System.out.println(data("email"));
-        System.out.println(data("phoneNumber"));
+        System.out.println(data("PhoneNumber"));
         System.out.println(data("fullName"));
-        System.out.println(data("address"));
+        System.out.println(data("StreetAddress"));
         System.out.println(data("city"));
         System.out.println(data("state"));
         System.out.println(data("zipCode"));
+        System.out.println(data("cardNumber"));
+        System.out.println(data("nameOnCard"));
+        System.out.println(data("securityCode"));
       
     }
    
@@ -42,8 +45,11 @@ public class DataGeneratorUtility {
 			outPut = "United States";
 		}else if(input.equals("apt")) {
 			outPut = faker.address().secondaryAddress();
+		}else if(input.equals("cardNumber")) {
+			outPut = faker.expression("#{numerify '################'}");
+		}else if(input.equals("securityCode")) {
+			outPut = faker.expression("#{numerify '###'}");
 		}
-
 		return outPut;
 	}
 }

@@ -36,7 +36,6 @@ Feature: Retail Account Page
     And User click on Update Your Card button
     Then a massage should be displayed 'Payment Method updated Successfully'
 
-  @test
   Scenario: Varify user can remove Debit or Credit card
     When User click on remove option
     And User click on remove option of card section

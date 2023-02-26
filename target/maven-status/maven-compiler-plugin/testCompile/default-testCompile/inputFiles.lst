@@ -6,4 +6,6 @@ C:\Users\FARBOD\eclipse-workspace\tek-capstone-panthers\src\test\java\tek\capsto
 C:\Users\FARBOD\eclipse-workspace\tek-capstone-panthers\src\test\java\tek\capstone\framework\steps\SignInSteps.java
 C:\Users\FARBOD\eclipse-workspace\tek-capstone-panthers\src\test\java\tek\capstone\framework\steps\AccountPageSteps.java
 C:\Users\FARBOD\eclipse-workspace\tek-capstone-panthers\src\test\java\tek\capstone\framework\pages\RetailHomePage.java
+C:\Users\FARBOD\eclipse-workspace\tek-capstone-panthers\src\test\java\tek\capstone\framework\pages\RetailOrderPage.java
+C:\Users\FARBOD\eclipse-workspace\tek-capstone-panthers\src\test\java\tek\capstone\framework\steps\OrderSteps.java
 C:\Users\FARBOD\eclipse-workspace\tek-capstone-panthers\src\test\java\tek\capstone\framework\base\BaseUITest.java
