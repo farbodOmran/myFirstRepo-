@@ -9,6 +9,8 @@ public class GitPracticeTwo {
 		System.out.println("This is for pull practice");
 		System.out.println("This is for practice");
 		System.out.println("This is practice");
+		System.out.println("This is for practice pull");
+		
 		
 	}
 
