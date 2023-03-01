@@ -1,4 +1,4 @@
-@completeTest
+
 Feature: Retail Account Page
 
   Background: 
