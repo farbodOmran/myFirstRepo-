@@ -1,4 +1,3 @@
-
 Feature: Retail Account Page
 
   Background: 
@@ -16,12 +15,19 @@ Feature: Retail Account Page
 
   Scenario: Varify User can Update password
     When User enter below information
-      | value1        | value2       | value3       |
+      | value1        | value2        | value3        |
       | Farbod@123456 | Farbod@123456 | Farbod@123456 |
     And User click on Change Password button
     Then a massage should be displayed 'Password Updated Successfully'
-@test
+
+  @test
   Scenario: Varify User can add a payment method
+    Given User is on retail website
+    When User click on Sign in option
+    And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456'
+    And User click on login button
+    And User should be logged in into Account
+    Then User click on Account option
     When User click on Add a payment method link
     And User fil Debit or Credit card information
       | cardNumber       | nameOnCard   | expirationMonth | expirationYear | securityCode |
