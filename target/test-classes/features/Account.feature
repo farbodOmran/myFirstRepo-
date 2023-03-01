@@ -20,7 +20,7 @@ Feature: Retail Account Page
       | Farbod@123456 | Farbod@123456 | Farbod@123456 |
     And User click on Change Password button
     Then a massage should be displayed 'Password Updated Successfully'
-
+@test
   Scenario: Varify User can add a payment method
     When User click on Add a payment method link
     And User fil Debit or Credit card information

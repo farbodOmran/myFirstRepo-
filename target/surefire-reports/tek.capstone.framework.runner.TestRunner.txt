@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tek.capstone.framework.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.851 s <<< FAILURE! - in tek.capstone.framework.runner.TestRunner
-Retail Account Page.Varify user can remove Debit or Credit card  Time elapsed: 3.925 s  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertFalse(Assert.java:65)
-	at org.junit.Assert.assertFalse(Assert.java:75)
-	at tek.capstone.framework.steps.AccountPageSteps.paymentDetailsShouldBeRemoved(AccountPageSteps.java:163)
-	at ✽.payment details should be removed(classpath:features/Account.feature:43)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.779 s - in tek.capstone.framework.runner.TestRunner

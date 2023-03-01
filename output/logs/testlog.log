@@ -1438,3 +1438,11 @@
 2023-03-01 11:23:49,654 - logger_File -INFO - User click on account button
 2023-03-01 11:23:49,826 - logger_File -INFO - User click on remove button on address field to remove address
 2023-03-01 11:23:49,861 - logger_File -INFO - User successfully remove address
+2023-03-01 13:04:15,733 - logger_File -INFO - user is on retail website
+2023-03-01 13:04:15,749 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 13:04:15,953 - logger_File -INFO - User click on Sign In Button
+2023-03-01 13:04:16,528 - logger_File -INFO - User enter email and password in sign in page
+2023-03-01 13:04:16,618 - logger_File -INFO - User click the log In Button
+2023-03-01 13:04:17,053 - logger_File -INFO - User click on account button
+2023-03-01 13:04:17,211 - logger_File -INFO - User click on Add a Payment Method
+2023-03-01 13:04:18,787 - logger_File -INFO - user can see the massage: Card added Successfully
