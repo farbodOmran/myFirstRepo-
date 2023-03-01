@@ -1,22 +1,23 @@
+@completeTest
 Feature: Retail Account Page
 
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@12345'
+    And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456'
     And User click on login button
     And User should be logged in into Account
     Then User click on Account option
 
   Scenario: Varify user can update Profile Information
-    And User update Name 'FarbodOmran' and Password '4163458728'
+    And User update Name 'FarbodOmran' and PhoneNumber '4163458728'
     And User click on Update Button
     Then User profile information should be updated
 
   Scenario: Varify User can Update password
     When User enter below information
       | value1        | value2       | value3       |
-      | Farbod@123456 | Farbod@12345 | Farbod@12345 |
+      | Farbod@123456 | Farbod@123456 | Farbod@123456 |
     And User click on Change Password button
     Then a massage should be displayed 'Password Updated Successfully'
 

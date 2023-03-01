@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tek.capstone.framework.runner.TestRunner" time="83.784" tests="4" errors="3" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tek.capstone.framework.runner.TestRunner" time="44.851" tests="8" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\FARBOD\AppData\Local\Temp\surefire11165683348436642478\surefirebooter-20230225203650428_3.jar C:\Users\FARBOD\AppData\Local\Temp\surefire11165683348436642478 2023-02-25T20-36-49_358-jvmRun1 surefire-20230225203650428_1tmp surefire_0-20230225203650428_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\FARBOD\AppData\Local\Temp\surefire18427805812272173539\surefirebooter-20230301112304547_3.jar C:\Users\FARBOD\AppData\Local\Temp\surefire18427805812272173539 2023-03-01T11-23-03_199-jvmRun1 surefire-20230301112304547_1tmp surefire_0-20230301112304547_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\FARBOD\eclipse-workspace\tek-capstone-panthers\target\test-classes;C:\Users\FARBOD\eclipse-workspace\tek-capstone-panthers\target\classes;C:\Users\FARBOD\.m2\repository\io\cucumber\cucumber-java\7.8.0\cucumber-java-7.8.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\cucumber-core\7.8.0\cucumber-core-7.8.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\cucumber-gherkin\7.8.0\cucumber-gherkin-7.8.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.0\cucumber-gherkin-messages-7.8.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\messages\19.1.2\messages-19.1.2.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\datatable\7.8.0\datatable-7.8.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\cucumber-plugin\7.8.0\cucumber-plugin-7.8.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\docstring\7.8.0\docstring-7.8.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\FARBOD\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\FARBOD\.m2\repository\io\cucumber\cucumber-junit\7.8.0\cucumber-junit-7.8.0.jar;C:\Users\FARBOD\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\FARBOD\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-java\4.4.0\selenium-java-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-api\4.4.0\selenium-api-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.4.0\selenium-chrome-driver-4.4.0.jar;C:\Users\FARBOD\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\FARBOD\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\FARBOD\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\FARBOD\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\FARBOD\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\FARBOD\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\FARBOD\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\FARBOD\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\FARBOD\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\FARBOD\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.4.0\selenium-chromium-driver-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-json\4.4.0\selenium-json-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.4.0\selenium-devtools-v102-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.4.0\selenium-devtools-v103-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.4.0\selenium-devtools-v104-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.4.0\selenium-devtools-v85-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.4.0\selenium-edge-driver-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.4.0\selenium-firefox-driver-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.4.0\selenium-ie-driver-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.4.0\selenium-opera-driver-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.4.0\selenium-remote-driver-4.4.0.jar;C:\Users\FARBOD\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-api\1.16.0\opentelemetry-api-1.16.0.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-context\1.16.0\opentelemetry-context-1.16.0.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.16.0\opentelemetry-exporter-logging-1.16.0.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.16.0\opentelemetry-sdk-metrics-1.16.0.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.16.0-alpha\opentelemetry-sdk-logs-1.16.0-alpha.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.16.0\opentelemetry-sdk-common-1.16.0.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.16.0\opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.16.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.16.0\opentelemetry-sdk-trace-1.16.0.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.16.0\opentelemetry-sdk-1.16.0.jar;C:\Users\FARBOD\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.16.0-alpha\opentelemetry-semconv-1.16.0-alpha.jar;C:\Users\FARBOD\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\FARBOD\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\FARBOD\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\FARBOD\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\FARBOD\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\FARBOD\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\FARBOD\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\FARBOD\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\FARBOD\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-http\4.4.0\selenium-http-4.4.0.jar;C:\Users\FARBOD\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.4.0\selenium-safari-driver-4.4.0.jar;C:\Users\FARBOD\.m2\repository\org\seleniumhq\selenium\selenium-support\4.4.0\selenium-support-4.4.0.jar;C:\Users\FARBOD\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\FARBOD\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\FARBOD\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\FARBOD\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\FARBOD\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\FARBOD\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\FARBOD\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\FARBOD\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\FARBOD\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\FARBOD\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\FARBOD\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\FARBOD\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\FARBOD\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\FARBOD\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\FARBOD\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\FARBOD\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\FARBOD\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\FARBOD\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\FARBOD\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\FARBOD\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\FARBOD\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\FARBOD\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\FARBOD\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\FARBOD\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\FARBOD\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\FARBOD\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\FARBOD\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\FARBOD\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\FARBOD\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\FARBOD\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\FARBOD\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\FARBOD\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar;C:\Users\FARBOD\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\FARBOD\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\FARBOD\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\FARBOD\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\FARBOD\.m2\repository\net\datafaker\datafaker\1.8.0\datafaker-1.8.0.jar;C:\Users\FARBOD\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\FARBOD\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\FARBOD\AppData\Local\Temp\surefire11165683348436642478\surefirebooter-20230225203650428_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\FARBOD\AppData\Local\Temp\surefire18427805812272173539\surefirebooter-20230301112304547_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
@@ -61,331 +61,340 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Verify User can cancel the order" classname="Retail Order Page" time="51.203">
-    <error message="disconnected: received Inspector.detached event&#10;  (failed to check if window was closed: disconnected: unable to send message to renderer)&#10;  (Session info: chrome=109.0.5414.120)&#10;Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;&#10;System info: host: &apos;LAPTOP-VEPK0F2E&apos;, ip: &apos;192.168.2.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [80c88471bac07da7bf5f9fe59e4a796d, findElement {using=xpath, value=(//button[@id=&apos;cancelBtn&apos;])[1]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\FARBOD\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55704/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 80c88471bac07da7bf5f9fe59e4a796d" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-disconnected: received Inspector.detached event
-  (failed to check if window was closed: disconnected: unable to send message to renderer)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-VEPK0F2E', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80c88471bac07da7bf5f9fe59e4a796d, findElement {using=xpath, value=(//button[@id='cancelBtn'])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\FARBOD\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55704/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 80c88471bac07da7bf5f9fe59e4a796d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy24.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	at tek.capstone.framework.utilities.CommonUtility.waitTillClickable(CommonUtility.java:29)
-	at tek.capstone.framework.utilities.CommonUtility.click(CommonUtility.java:41)
-	at tek.capstone.framework.steps.OrderSteps.userClickOnCancelTheOrderButton(OrderSteps.java:29)
-	at ✽.User click on Cancel The Order button(classpath:features/Order.feature:14)
-]]></error>
+  <testcase name="Varify user can update Profile Information" classname="Retail Account Page" time="7.471">
     <system-out><![CDATA[
 @completeTest
-Scenario: Verify User can cancel the order                                       # features/Order.feature:13
+Scenario: Varify user can update Profile Information                              # features/Account.feature:12
  INFO [main] (RetailSteps.java:29)- user is on retail website
  INFO [main] (RetailSteps.java:30)- Actual Title React App Equals  ExpectedTitle React App
-  Given User is on retail website                                                # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
+  Given User is on retail website                                                 # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
  INFO [main] (SignInSteps.java:21)- User click on Sign In Button
-  When User click on Sign in option                                              # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
+  When User click on Sign in option                                               # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
  INFO [main] (SignInSteps.java:32)- User enter email and password in sign in page
-  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@12345' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
  INFO [main] (SignInSteps.java:38)- User click the log In Button
-  And User click on login button                                                 # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
-  And User should be logged in into Account                                      # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
- INFO [main] (OrderSteps.java:17)- User clicked on order button
-  And User click on Orders section                                               # tek.capstone.framework.steps.OrderSteps.userClickOnOrdersSection()
- INFO [main] (OrderSteps.java:24)- User clicked on first item
-  And User click on first order in list                                          # tek.capstone.framework.steps.OrderSteps.userClickOnFirstOrderInList()
-  And User click on Cancel The Order button                                      # tek.capstone.framework.steps.OrderSteps.userClickOnCancelTheOrderButton()
-      org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
-  (failed to check if window was closed: disconnected: unable to send message to renderer)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-VEPK0F2E', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80c88471bac07da7bf5f9fe59e4a796d, findElement {using=xpath, value=(//button[@id='cancelBtn'])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\FARBOD\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55704/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 80c88471bac07da7bf5f9fe59e4a796d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy24.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	at tek.capstone.framework.utilities.CommonUtility.waitTillClickable(CommonUtility.java:29)
-	at tek.capstone.framework.utilities.CommonUtility.click(CommonUtility.java:41)
-	at tek.capstone.framework.steps.OrderSteps.userClickOnCancelTheOrderButton(OrderSteps.java:29)
-	at âœ½.User click on Cancel The Order button(classpath:features/Order.feature:14)
-
-  And User select the cancelation Reason 'Bought wrong item'                     # tek.capstone.framework.steps.OrderSteps.userSelectTheCancelationReason(java.lang.String)
-  And User click on Cancel Order button                                          # tek.capstone.framework.steps.OrderSteps.userClickOnCancelOrderButton()
-  Then a cancelation message should be displayed 'Your Order Has Been Cancelled' # tek.capstone.framework.steps.OrderSteps.aCancelationMessageShouldBeDisplayed(java.lang.String)
-      org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
-  (failed to check if window was closed: disconnected: unable to connect to renderer)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-VEPK0F2E', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80c88471bac07da7bf5f9fe59e4a796d, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\FARBOD\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55704/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 80c88471bac07da7bf5f9fe59e4a796d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
-	at tek.capstone.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:50)
-	at tek.capstone.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
-
+  And User click on login button                                                  # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (AccountPageSteps.java:24)- User click on account button
+  Then User click on Account option                                               # tek.capstone.framework.steps.AccountPageSteps.userClickOnAccountOption()
+ INFO [main] (AccountPageSteps.java:33)- User write new name and new phone number in name and phone number field
+  And User update Name 'FarbodOmran' and PhoneNumber '4163458726'                 # tek.capstone.framework.steps.AccountPageSteps.userUpdateNameAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (AccountPageSteps.java:40)- User click the update button
+  And User click on Update Button                                                 # tek.capstone.framework.steps.AccountPageSteps.userClickOnUpdateButton()
+ INFO [main] (AccountPageSteps.java:47)- User get Personal Information Updated Successfully massage
+  Then User profile information should be updated                                 # tek.capstone.framework.steps.AccountPageSteps.userProfileInformationShouldBeUpdated()
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 51258
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 62762
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 25, 2023 8:36:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677687789.641][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 01, 2023 11:23:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Feb 25, 2023 8:36:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
-Feb 25, 2023 8:36:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 109.
-Feb 25, 2023 8:36:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-[1677375434.994][WARNING]: Timed out connecting to Chrome, retrying...
-[1677375443.095][WARNING]: Timed out connecting to Chrome, retrying...
-[1677375451.150][WARNING]: Timed out connecting to Chrome, retrying...
-[1677375459.234][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="Verify User can cancel the order" classname="Retail Order Page" time="51.242">
-    <error message="disconnected: unable to connect to renderer&#10;  (failed to check if window was closed: disconnected: unable to connect to renderer)&#10;  (Session info: chrome=109.0.5414.120)&#10;Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;&#10;System info: host: &apos;LAPTOP-VEPK0F2E&apos;, ip: &apos;192.168.2.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [80c88471bac07da7bf5f9fe59e4a796d, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\FARBOD\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55704/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 80c88471bac07da7bf5f9fe59e4a796d" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-disconnected: unable to connect to renderer
-  (failed to check if window was closed: disconnected: unable to connect to renderer)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-VEPK0F2E', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80c88471bac07da7bf5f9fe59e4a796d, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\FARBOD\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55704/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 80c88471bac07da7bf5f9fe59e4a796d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
-	at tek.capstone.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:50)
-	at tek.capstone.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
-]]></error>
-  </testcase>
-  <testcase name="Verify User can Return the order" classname="Retail Order Page" time="25.633">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;Your Order Has Been Cancelled&apos;)]&quot;}&#10;  (Session info: chrome=109.0.5414.120)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;&#10;System info: host: &apos;LAPTOP-VEPK0F2E&apos;, ip: &apos;192.168.2.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [24163fba7d502c5edba4b3c91e2a0b36, findElement {using=xpath, value=//p[contains(text(),&apos;Your Order Has Been Cancelled&apos;)]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\FARBOD\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55791/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 24163fba7d502c5edba4b3c91e2a0b36" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Your Order Has Been Cancelled')]"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-VEPK0F2E', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [24163fba7d502c5edba4b3c91e2a0b36, findElement {using=xpath, value=//p[contains(text(),'Your Order Has Been Cancelled')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\FARBOD\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55791/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 24163fba7d502c5edba4b3c91e2a0b36
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy24.isDisplayed(Unknown Source)
-	at tek.capstone.framework.utilities.CommonUtility.isElementDisplayed(CommonUtility.java:120)
-	at tek.capstone.framework.steps.OrderSteps.aCancelationMessageShouldBeDisplayed(OrderSteps.java:47)
-	at ✽.a cancelation message should be displayed 'Return was successfull'(classpath:features/Order.feature:24)
-]]></error>
-    <system-out><![CDATA[
-@completeTest
-Scenario: Verify User can Return the order                                       # features/Order.feature:19
- INFO [main] (RetailSteps.java:29)- user is on retail website
- INFO [main] (RetailSteps.java:30)- Actual Title React App Equals  ExpectedTitle React App
-  Given User is on retail website                                                # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
- INFO [main] (SignInSteps.java:21)- User click on Sign In Button
-  When User click on Sign in option                                              # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
- INFO [main] (SignInSteps.java:32)- User enter email and password in sign in page
-  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@12345' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
- INFO [main] (SignInSteps.java:38)- User click the log In Button
-  And User click on login button                                                 # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
-  And User should be logged in into Account                                      # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
- INFO [main] (OrderSteps.java:17)- User clicked on order button
-  And User click on Orders section                                               # tek.capstone.framework.steps.OrderSteps.userClickOnOrdersSection()
- INFO [main] (OrderSteps.java:24)- User clicked on first item
-  And User click on first order in list                                          # tek.capstone.framework.steps.OrderSteps.userClickOnFirstOrderInList()
- INFO [main] (OrderSteps.java:57)- User clicked on return order button
-  And User click on Return Items button                                          # tek.capstone.framework.steps.OrderSteps.userClickOnReturnItemsButton()
- INFO [main] (OrderSteps.java:63)- User select the return reson
-  And User select the Return Reason 'Item damaged'                               # tek.capstone.framework.steps.OrderSteps.userSelectTheReturnReason(java.lang.String)
- INFO [main] (OrderSteps.java:69)- User select the droppOff location
-  And User select the drop off service 'FedEx'                                   # tek.capstone.framework.steps.OrderSteps.userSelectTheDropOffService(java.lang.String)
- INFO [main] (OrderSteps.java:74)- User clicked on return order button
-  And User click on Return Order button                                          # tek.capstone.framework.steps.OrderSteps.userClickOnReturnOrderButton()
-  Then a cancelation message should be displayed 'Return was successfull'        # tek.capstone.framework.steps.OrderSteps.aCancelationMessageShouldBeDisplayed(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Your Order Has Been Cancelled')]"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-VEPK0F2E', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [24163fba7d502c5edba4b3c91e2a0b36, findElement {using=xpath, value=//p[contains(text(),'Your Order Has Been Cancelled')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\FARBOD\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55791/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 24163fba7d502c5edba4b3c91e2a0b36
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy24.isDisplayed(Unknown Source)
-	at tek.capstone.framework.utilities.CommonUtility.isElementDisplayed(CommonUtility.java:120)
-	at tek.capstone.framework.steps.OrderSteps.aCancelationMessageShouldBeDisplayed(OrderSteps.java:47)
-	at âœ½.a cancelation message should be displayed 'Return was successfull'(classpath:features/Order.feature:24)
-
-
-    Embedding Verify User can Return the order scenario Failed [iamge/png 36688 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 54570
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Feb 25, 2023 8:37:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Feb 25, 2023 8:37:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
-Feb 25, 2023 8:37:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 109.
-Feb 25, 2023 8:37:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 01, 2023 11:23:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+Mar 01, 2023 11:23:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+Mar 01, 2023 11:23:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can write a review on order placed" classname="Retail Order Page" time="5.748">
+  <testcase name="Varify User can Update password" classname="Retail Account Page" time="4.846">
     <system-out><![CDATA[
 @completeTest
-Scenario: Verify User can write a review on order placed                         # features/Order.feature:27
+Scenario: Varify User can Update password                                         # features/Account.feature:17
  INFO [main] (RetailSteps.java:29)- user is on retail website
  INFO [main] (RetailSteps.java:30)- Actual Title React App Equals  ExpectedTitle React App
-  Given User is on retail website                                                # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
+  Given User is on retail website                                                 # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
  INFO [main] (SignInSteps.java:21)- User click on Sign In Button
-  When User click on Sign in option                                              # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
+  When User click on Sign in option                                               # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
  INFO [main] (SignInSteps.java:32)- User enter email and password in sign in page
-  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@12345' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
  INFO [main] (SignInSteps.java:38)- User click the log In Button
-  And User click on login button                                                 # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
-  And User should be logged in into Account                                      # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
- INFO [main] (OrderSteps.java:17)- User clicked on order button
-  And User click on Orders section                                               # tek.capstone.framework.steps.OrderSteps.userClickOnOrdersSection()
- INFO [main] (OrderSteps.java:24)- User clicked on first item
-  And User click on first order in list                                          # tek.capstone.framework.steps.OrderSteps.userClickOnFirstOrderInList()
- INFO [main] (OrderSteps.java:80)- Userclicked on review button
-  And User click on Review button                                                # tek.capstone.framework.steps.OrderSteps.userClickOnReviewButton()
- INFO [main] (OrderSteps.java:87)- User write a review
-  And User write Review headline 'headline value' and 'review text'              # tek.capstone.framework.steps.OrderSteps.userWriteReviewHeadline(java.lang.String,java.lang.String)
- INFO [main] (OrderSteps.java:93)- User clicked on add review button
-  And User click Add your Review button                                          # tek.capstone.framework.steps.OrderSteps.userClickAddYourReviewButton()
- INFO [main] (OrderSteps.java:100)- User successfully add review and get the confirmation massage
-  Then a review message should be displayed 'Your review was added successfully' # tek.capstone.framework.steps.OrderSteps.aReviewMessageShouldBeDisplayed(java.lang.String)
+  And User click on login button                                                  # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (AccountPageSteps.java:24)- User click on account button
+  Then User click on Account option                                               # tek.capstone.framework.steps.AccountPageSteps.userClickOnAccountOption()
+ INFO [main] (AccountPageSteps.java:57)- user enter new information in change password section
+  When User enter below information                                               # tek.capstone.framework.steps.AccountPageSteps.userEnterBelowInformation(io.cucumber.datatable.DataTable)
+    | value1        | value2        | value3        |
+    | Farbod@123456 | Farbod@123456 | Farbod@123456 |
+ INFO [main] (AccountPageSteps.java:64)- User click on change password button
+  And User click on Change Password button                                        # tek.capstone.framework.steps.AccountPageSteps.userClickOnChangePasswordButton()
+ INFO [main] (AccountPageSteps.java:73)- user can see the massage: Password Updated Successfully
+  Then a massage should be displayed 'Password Updated Successfully'              # tek.capstone.framework.steps.AccountPageSteps.aMassageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 53710
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 59324
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 25, 2023 8:38:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677687795.059][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 01, 2023 11:23:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Feb 25, 2023 8:38:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
-Feb 25, 2023 8:38:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 109.
-Feb 25, 2023 8:38:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 01, 2023 11:23:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+Mar 01, 2023 11:23:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+Mar 01, 2023 11:23:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Varify User can add a payment method" classname="Retail Account Page" time="4.854">
+    <system-out><![CDATA[
+@completeTest
+Scenario: Varify User can add a payment method                                    # features/Account.feature:24
+ INFO [main] (RetailSteps.java:29)- user is on retail website
+ INFO [main] (RetailSteps.java:30)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                 # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:21)- User click on Sign In Button
+  When User click on Sign in option                                               # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:32)- User enter email and password in sign in page
+  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:38)- User click the log In Button
+  And User click on login button                                                  # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (AccountPageSteps.java:24)- User click on account button
+  Then User click on Account option                                               # tek.capstone.framework.steps.AccountPageSteps.userClickOnAccountOption()
+ INFO [main] (AccountPageSteps.java:96)- User click on Add a Payment Method
+  When User click on Add a payment method link                                    # tek.capstone.framework.steps.AccountPageSteps.userClickOnAddAPaymentMethodLink()
+  And User fil Debit or Credit card information                                   # tek.capstone.framework.steps.AccountPageSteps.userFilDebitOrCreditCardInformation(io.cucumber.datatable.DataTable)
+    | cardNumber       | nameOnCard   | expirationMonth | expirationYear | securityCode |
+    | 5674235698431246 | farbodomrani | 3               | 2025           | 007          |
+  And User click on Add your card button                                          # tek.capstone.framework.steps.AccountPageSteps.userClickOnAddYourCardButton()
+ INFO [main] (AccountPageSteps.java:77)- user can see the massage: Card added Successfully
+  Then a massage should be displayed 'Payment Method added successfully'          # tek.capstone.framework.steps.AccountPageSteps.aMassageShouldBeDisplayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 55308
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677687799.811][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 01, 2023 11:23:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 01, 2023 11:23:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+Mar 01, 2023 11:23:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+Mar 01, 2023 11:23:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Varify User can edit Debit or Credit Card" classname="Retail Account Page" time="5.375">
+    <system-out><![CDATA[
+@completeTest
+Scenario: Varify User can edit Debit or Credit Card                               # features/Account.feature:32
+ INFO [main] (RetailSteps.java:29)- user is on retail website
+ INFO [main] (RetailSteps.java:30)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                 # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:21)- User click on Sign In Button
+  When User click on Sign in option                                               # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:32)- User enter email and password in sign in page
+  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:38)- User click the log In Button
+  And User click on login button                                                  # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (AccountPageSteps.java:24)- User click on account button
+  Then User click on Account option                                               # tek.capstone.framework.steps.AccountPageSteps.userClickOnAccountOption()
+  When User click on Edit option of card section                                  # tek.capstone.framework.steps.AccountPageSteps.userClickOnEditOptionOfCardSection()
+ INFO [main] (AccountPageSteps.java:140)- User enter new information in edit card field
+  And User edit information with below data                                       # tek.capstone.framework.steps.AccountPageSteps.userEditInformationWithBelowData(io.cucumber.datatable.DataTable)
+    | CardNumber       | nameOnCard  | expirationMonth | expirationYear | securityCode |
+    | 4546376457623244 | FarbodOmran | 5               | 2028           | 363          |
+ INFO [main] (AccountPageSteps.java:146)- User click on update card button
+  And User click on Update Your Card button                                       # tek.capstone.framework.steps.AccountPageSteps.userClickOnUpdateYourCardButton()
+ INFO [main] (AccountPageSteps.java:81)- User successfully edited Debit or Credit Card information
+  Then a massage should be displayed 'Payment Method updated Successfully'        # tek.capstone.framework.steps.AccountPageSteps.aMassageShouldBeDisplayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 51812
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677687804.723][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 01, 2023 11:23:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 01, 2023 11:23:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+Mar 01, 2023 11:23:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+Mar 01, 2023 11:23:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Varify user can remove Debit or Credit card" classname="Retail Account Page" time="3.925">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at tek.capstone.framework.steps.AccountPageSteps.paymentDetailsShouldBeRemoved(AccountPageSteps.java:163)
+	at ✽.payment details should be removed(classpath:features/Account.feature:43)
+]]></failure>
+    <system-out><![CDATA[
+@completeTest
+Scenario: Varify user can remove Debit or Credit card                             # features/Account.feature:40
+ INFO [main] (RetailSteps.java:29)- user is on retail website
+ INFO [main] (RetailSteps.java:30)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                 # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:21)- User click on Sign In Button
+  When User click on Sign in option                                               # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:32)- User enter email and password in sign in page
+  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:38)- User click the log In Button
+  And User click on login button                                                  # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (AccountPageSteps.java:24)- User click on account button
+  Then User click on Account option                                               # tek.capstone.framework.steps.AccountPageSteps.userClickOnAccountOption()
+ INFO [main] (AccountPageSteps.java:152)- User Click to remove the debit or credit card
+  When User click on remove option                                                # tek.capstone.framework.steps.AccountPageSteps.userClickOnRemoveOption()
+ INFO [main] (AccountPageSteps.java:158)- User clock on remove card button
+  And User click on remove option of card section                                 # tek.capstone.framework.steps.AccountPageSteps.userClickOnRemoveOptionOfCardSection()
+  Then payment details should be removed                                          # tek.capstone.framework.steps.AccountPageSteps.paymentDetailsShouldBeRemoved()
+      java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at tek.capstone.framework.steps.AccountPageSteps.paymentDetailsShouldBeRemoved(AccountPageSteps.java:163)
+	at âœ½.payment details should be removed(classpath:features/Account.feature:43)
+
+
+    Embedding Varify user can remove Debit or Credit card scenario Failed [iamge/png 107246 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 63633
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677687810.070][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 01, 2023 11:23:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 01, 2023 11:23:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+Mar 01, 2023 11:23:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+Mar 01, 2023 11:23:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Varify user can add an Address" classname="Retail Account Page" time="6.563">
+    <system-out><![CDATA[
+@completeTest
+Scenario: Varify user can add an Address                                          # features/Account.feature:45
+ INFO [main] (RetailSteps.java:29)- user is on retail website
+ INFO [main] (RetailSteps.java:30)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                 # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:21)- User click on Sign In Button
+  When User click on Sign in option                                               # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:32)- User enter email and password in sign in page
+  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:38)- User click the log In Button
+  And User click on login button                                                  # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (AccountPageSteps.java:24)- User click on account button
+  Then User click on Account option                                               # tek.capstone.framework.steps.AccountPageSteps.userClickOnAccountOption()
+ INFO [main] (AccountPageSteps.java:173)- User click on add your address option
+  When User click on Add address option                                           # tek.capstone.framework.steps.AccountPageSteps.userClickOnAddAddressOption()
+ INFO [main] (AccountPageSteps.java:195)- user fill the address section based on faker class data
+  And User fill new address form with belew information                           # tek.capstone.framework.steps.AccountPageSteps.userFillNewAddressFormWithBelewInformation(io.cucumber.datatable.DataTable)
+    | country | fullName | PhoneNumber | StreetAddress | apt | city | state | zipCode |
+ INFO [main] (AccountPageSteps.java:202)- User click on Add Your Address Button
+  And User click Add Your Address button                                          # tek.capstone.framework.steps.AccountPageSteps.userClickAddYourAddressButton()
+ INFO [main] (AccountPageSteps.java:85)- User successfully added address
+  Then a massage should be displayed 'Address added successfully'                 # tek.capstone.framework.steps.AccountPageSteps.aMassageShouldBeDisplayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 53932
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677687814.125][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 01, 2023 11:23:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 01, 2023 11:23:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+Mar 01, 2023 11:23:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+Mar 01, 2023 11:23:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Varify User can edit an Address added on account" classname="Retail Account Page" time="6.7">
+    <system-out><![CDATA[
+@completeTest
+Scenario: Varify User can edit an Address added on account                        # features/Account.feature:52
+ INFO [main] (RetailSteps.java:29)- user is on retail website
+ INFO [main] (RetailSteps.java:30)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                 # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:21)- User click on Sign In Button
+  When User click on Sign in option                                               # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:32)- User enter email and password in sign in page
+  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:38)- User click the log In Button
+  And User click on login button                                                  # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (AccountPageSteps.java:24)- User click on account button
+  Then User click on Account option                                               # tek.capstone.framework.steps.AccountPageSteps.userClickOnAccountOption()
+ INFO [main] (AccountPageSteps.java:208)- User click to edit address
+  When User click on edit address option                                          # tek.capstone.framework.steps.AccountPageSteps.userClickOnEditAddressOption()
+ INFO [main] (AccountPageSteps.java:237)- User fill the new information for updating address
+  And User fill new address form with below information                           # tek.capstone.framework.steps.AccountPageSteps.userFillNewAddressFormWithBelowInformation(io.cucumber.datatable.DataTable)
+    | country | fullName | PhoneNumber | StreetAddress | apt | city | state | zipCode |
+ INFO [main] (AccountPageSteps.java:243)- User click on update address button
+  And User click update Your Address button                                       # tek.capstone.framework.steps.AccountPageSteps.userClickUpdateYourAddressButton()
+ INFO [main] (AccountPageSteps.java:89)- User successfully updatet address
+  Then a massage should be displayed 'Address Updatet Successfully'               # tek.capstone.framework.steps.AccountPageSteps.aMassageShouldBeDisplayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 64449
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677687820.696][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 01, 2023 11:23:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 01, 2023 11:23:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+Mar 01, 2023 11:23:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+Mar 01, 2023 11:23:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Varify User can remove Address from Account" classname="Retail Account Page" time="3.863">
+    <system-out><![CDATA[
+@completeTest
+Scenario: Varify User can remove Address from Account                             # features/Account.feature:59
+ INFO [main] (RetailSteps.java:29)- user is on retail website
+ INFO [main] (RetailSteps.java:30)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                 # tek.capstone.framework.steps.RetailSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:21)- User click on Sign In Button
+  When User click on Sign in option                                               # tek.capstone.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:32)- User enter email and password in sign in page
+  And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456' # tek.capstone.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:38)- User click the log In Button
+  And User click on login button                                                  # tek.capstone.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.capstone.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (AccountPageSteps.java:24)- User click on account button
+  Then User click on Account option                                               # tek.capstone.framework.steps.AccountPageSteps.userClickOnAccountOption()
+ INFO [main] (AccountPageSteps.java:249)- User click on remove button on address field to remove address
+  When User click on remove option of Address section                             # tek.capstone.framework.steps.AccountPageSteps.userClickOnRemoveOptionOfAddressSection()
+ INFO [main] (AccountPageSteps.java:255)- User successfully remove address
+  Then Address details should be removed                                          # tek.capstone.framework.steps.AccountPageSteps.addressDetailsShouldBeRemoved()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 58309
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677687827.349][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 01, 2023 11:23:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 01, 2023 11:23:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+Mar 01, 2023 11:23:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+Mar 01, 2023 11:23:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

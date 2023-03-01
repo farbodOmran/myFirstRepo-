@@ -61,6 +61,7 @@ public class RetailSteps extends CommonUtility {
 		for (WebElement options : sideBarOptions) {
 			if (options.getText().equals(department)) {
 				click(options);
+
 				try {
 					logger.info(options.getText() + " is present ");
 				} catch (StaleElementReferenceException e) {
@@ -109,7 +110,7 @@ public class RetailSteps extends CommonUtility {
 
 	@When("User click on item")
 	public void userClickOnItem() {
-		//click(factory.homePage().productKasaPlugButton);
+		// click(factory.homePage().productKasaPlugButton);
 		click(factory.homePage().productApexLegend);
 		logger.info("User click on searched product");
 
@@ -184,5 +185,5 @@ public class RetailSteps extends CommonUtility {
 		Assert.assertTrue(isElementDisplayed(factory.homePage().orderPlacedMassageBar));
 		logger.info("User Successfully placed the order");
 	}
-	
+
 }

@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import tek.capstone.framework.base.BaseSetup;
 
+
+
 public class RetailAccountPage extends BaseSetup {
 	
 	public RetailAccountPage() {
@@ -32,6 +34,9 @@ public class RetailAccountPage extends BaseSetup {
 	
 	@FindBy(xpath = "//input[@id='confirmPasswordInput']")
 	public WebElement inputconfirmNewPasswordField;
+	
+	@FindBy(xpath = "//div[contains(text(),'New password can not be same as previous password')]")
+	public WebElement samePasswordMassageBar;
 	
 	@FindBy(xpath = "//button[@id='credentialsSubmitBtn']")
 	public WebElement changePasswordButton;

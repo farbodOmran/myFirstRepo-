@@ -24,7 +24,7 @@ public class AccountPageSteps extends CommonUtility {
 		logger.info("User click on account button");
 	}
 
-	@When("User update Name {string} and Password {string}")
+	@When("User update Name {string} and PhoneNumber {string}")
 	public void userUpdateNameAndPassword(String string, String string2) {
 		clearTextUsingSendKeys(factory.accountPage().inputeNameField);
 		clearTextUsingSendKeys(factory.accountPage().inputePhonNumberField);
@@ -67,25 +67,27 @@ public class AccountPageSteps extends CommonUtility {
 
 	@Then("a massage should be displayed {string}")
 	public void aMassageShouldBeDisplayed(String string) {
-		waitTillPresence(factory.accountPage().changePasswordMassage);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().changePasswordMassage));
-		logger.info("user can see the massage: Password Updated Successfully");
-
-		waitTillClickable(factory.accountPage().paymentMethodMassageDidplayed);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().paymentMethodMassageDidplayed));
-		logger.info("user can see the massage: Card added Successfully");
-
-		waitTillPresence(factory.accountPage().editDebitOrCreditCardMassageDidplayed);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().editDebitOrCreditCardMassageDidplayed));
-		logger.info("User successfully edited Debit or Credit Card information");
-
-		waitTillPresence(factory.accountPage().addressAddeMassageBar);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().addressAddeMassageBar));
-		logger.info("User successfully added address");
-
-		waitTillPresence(factory.accountPage().editressAddeMassageBar);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().editressAddeMassageBar));
-		logger.info("User successfully updatet address");
+		if (string.equals("Password Updated Successfully")) {
+			waitTillPresence(factory.accountPage().samePasswordMassageBar);
+			Assert.assertTrue(isElementDisplayed(factory.accountPage().samePasswordMassageBar));
+			logger.info("user can see the massage: Password Updated Successfully");
+		} else if (string.equals("Payment Method added successfully")) {
+			waitTillClickable(factory.accountPage().paymentMethodMassageDidplayed);
+			Assert.assertTrue(isElementDisplayed(factory.accountPage().paymentMethodMassageDidplayed));
+			logger.info("user can see the massage: Card added Successfully");
+		} else if (string.equals("Payment Method updated Successfully")) {
+			waitTillPresence(factory.accountPage().editDebitOrCreditCardMassageDidplayed);
+			Assert.assertTrue(isElementDisplayed(factory.accountPage().editDebitOrCreditCardMassageDidplayed));
+			logger.info("User successfully edited Debit or Credit Card information");
+		} else if (string.equals("Address added successfully")) {
+			waitTillPresence(factory.accountPage().addressAddeMassageBar);
+			Assert.assertTrue(isElementDisplayed(factory.accountPage().addressAddeMassageBar));
+			logger.info("User successfully added address");
+		} else if (string.equals("Address Updatet Successfully")) {
+			waitTillPresence(factory.accountPage().editressAddeMassageBar);
+			Assert.assertTrue(isElementDisplayed(factory.accountPage().editressAddeMassageBar));
+			logger.info("User successfully updatet address");
+		}
 	}
 
 	@When("User click on Add a payment method link")
