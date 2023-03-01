@@ -1,12 +1,6 @@
 Feature: Retail Account Page
 
-  Background: 
-    Given User is on retail website
-    When User click on Sign in option
-    And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456'
-    And User click on login button
-    And User should be logged in into Account
-    Then User click on Account option
+
 
   Scenario: Varify user can update Profile Information
     And User update Name 'FarbodOmran' and PhoneNumber '4163458728'
