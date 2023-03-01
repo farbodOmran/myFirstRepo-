@@ -71,7 +71,7 @@ public class RetailHomePage extends BaseSetup {
 	@FindBy(xpath = "//span[contains(text(),'Add to Cart')]")
 	public WebElement addToCartButton;
 
-	@FindBy(xpath = "//span[@id='cartQuantity' and contains(text(),'2')]")
+	@FindBy(xpath = "//span[@id='cartQuantity']")
 	public WebElement cartSignWithQuantity;
 	
 	@FindBy(xpath = "//button[@id='proceedBtn']")

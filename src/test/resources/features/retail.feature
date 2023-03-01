@@ -1,4 +1,4 @@
-
+@completeTest
 Feature: This feature is use for testing UI of Retail page
 
   Background: 
@@ -38,7 +38,7 @@ Feature: This feature is use for testing UI of Retail page
 
   Scenario: Verify User can place an order without Shipping address and payment Method on file
     When User click on Sign in option
-    And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@12345'
+    And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456'
     And User click on login button
     And User should be logged in into Account
     And User change the category to 'Smart Home'
@@ -64,7 +64,7 @@ Feature: This feature is use for testing UI of Retail page
 
   Scenario: Verify User can place an order with Shipping address and payment Method on file
     When User click on Sign in option
-    And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@12345'
+    And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456'
     And User click on login button
     And User should be logged in into Account
     And User change the category to 'Electronics'

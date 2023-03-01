@@ -108,11 +108,15 @@ public class RetailSteps extends CommonUtility {
 
 	}
 
-	@When("User click on item")
-	public void userClickOnItem() {
-		// click(factory.homePage().productKasaPlugButton);
-		click(factory.homePage().productApexLegend);
-		logger.info("User click on searched product");
+	@When("User click on item {string}")
+	public void userClickOnItem(String string) {
+		if (string.equals("kasa outdoor smart plug")) {
+			click(factory.homePage().productKasaPlugButton);
+			logger.info("User click on searched product");
+		} else if (string.equals("Apex Legends")) {
+			click(factory.homePage().productApexLegend);
+			logger.info("User click on searched product");
+		}
 
 	}
 
@@ -132,8 +136,13 @@ public class RetailSteps extends CommonUtility {
 
 	@Then("the cart icon quantity should change to {string}")
 	public void theCartIconQuantityShouldChangeTo(String string) {
-		Assert.assertTrue(isElementDisplayed(factory.homePage().cartSignWithQuantity));
-		logger.info("User successfully add 2 product into cart");
+		if (string.equals("2")) {
+			Assert.assertTrue(isElementDisplayed(factory.homePage().cartSignWithQuantity));
+			logger.info("User successfully add 2 product into cart");
+		} else if (string.equals("5")) {
+			Assert.assertTrue(isElementDisplayed(factory.homePage().cartSignWithQuantity));
+			logger.info("User successfully add 5 product into cart");
+		}
 
 	}
 

@@ -1446,3 +1446,19 @@
 2023-03-01 13:04:17,053 [main] INFO logger_File - User click on account button
 2023-03-01 13:04:17,211 [main] INFO logger_File - User click on Add a Payment Method
 2023-03-01 13:04:18,787 [main] INFO logger_File - user can see the massage: Card added Successfully
+2023-03-01 14:54:36,503 [main] INFO logger_File - user is on retail website
+2023-03-01 14:54:36,559 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 14:54:36,881 [main] INFO logger_File - User click on Sign In Button
+2023-03-01 14:54:37,455 [main] INFO logger_File - User enter email and password in sign in page
+2023-03-01 14:54:37,554 [main] INFO logger_File - User click the log In Button
+2023-03-01 14:54:38,011 [main] INFO logger_File - User click on account button
+2023-03-01 14:54:38,172 [main] INFO logger_File - User Click to remove the debit or credit card
+2023-03-01 14:54:38,310 [main] INFO logger_File - User clock on remove card button
+2023-03-01 14:56:47,576 [main] INFO logger_File - user is on retail website
+2023-03-01 14:56:47,594 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 14:56:47,796 [main] INFO logger_File - User click on Sign In Button
+2023-03-01 14:56:48,363 [main] INFO logger_File - User enter email and password in sign in page
+2023-03-01 14:56:48,452 [main] INFO logger_File - User click the log In Button
+2023-03-01 14:56:48,906 [main] INFO logger_File - User click on account button
+2023-03-01 14:56:49,094 [main] INFO logger_File - User Click to remove the debit or credit card
+2023-03-01 14:56:49,230 [main] INFO logger_File - User clock on remove card button

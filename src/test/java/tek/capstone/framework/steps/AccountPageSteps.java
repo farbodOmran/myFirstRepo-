@@ -160,11 +160,9 @@ public class AccountPageSteps extends CommonUtility {
 
 	@When("payment details should be removed")
 	public void paymentDetailsShouldBeRemoved() {
-		Assert.assertFalse(isElementDisplayed(factory.accountPage().cardRemoveOption));
-		try {
-			logger.info("user remove the card successfully");
-		} catch (Exception e) {
-		}
+		Assert.assertTrue(isElementDisplayed(factory.accountPage().addPaymentMethodButton));
+		logger.info("user remove the card successfully");
+
 	}
 
 	@When("User click on Add address option")
