@@ -1462,3 +1462,19 @@
 2023-03-01 14:56:48,906 - logger_File -INFO - User click on account button
 2023-03-01 14:56:49,094 - logger_File -INFO - User Click to remove the debit or credit card
 2023-03-01 14:56:49,230 - logger_File -INFO - User clock on remove card button
+2023-03-02 11:49:58,870 - logger_File -INFO - user is on retail website
+2023-03-02 11:49:58,891 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 11:49:59,140 - logger_File -INFO - User click on Sign In Button
+2023-03-02 11:49:59,728 - logger_File -INFO - User enter email and password in sign in page
+2023-03-02 11:49:59,820 - logger_File -INFO - User click the log In Button
+2023-03-02 11:50:00,183 - logger_File -INFO - User change category to Smart Home
+2023-03-02 11:50:00,334 - logger_File -INFO - User search for specific product
+2023-03-02 11:50:00,417 - logger_File -INFO - User cclick on search button
+2023-03-02 11:50:00,813 - logger_File -INFO - User change the quantity of product
+2023-03-02 11:50:00,971 - logger_File -INFO - User clicked on add to cart button
+2023-03-02 11:50:01,167 - logger_File -INFO - User successfully add 2 product into cart
+2023-03-02 11:50:04,017 - logger_File -INFO - user is on retail website
+2023-03-02 11:50:04,017 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 11:50:04,224 - logger_File -INFO - User click on Sign In Button
+2023-03-02 11:50:04,785 - logger_File -INFO - User enter email and password in sign in page
+2023-03-02 11:50:04,874 - logger_File -INFO - User click the log In Button

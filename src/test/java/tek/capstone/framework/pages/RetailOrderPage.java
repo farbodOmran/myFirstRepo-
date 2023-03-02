@@ -18,7 +18,7 @@ public class RetailOrderPage extends BaseSetup  {
 	@FindBy (xpath = "(//p[contains(text(),'Show Details')])[1]")
 	public WebElement showDetailButton;
 	
-	@FindBy (xpath = "(//p[@class='order__header-btn'])[2]")
+	@FindBy (xpath = "(//p[contains(text(),'Show Details')])[2]")
 	public WebElement showDetailButtonTwo;
 	
 	@FindBy (xpath = "(//p[contains(text(),'Hide Details')])[1]")
