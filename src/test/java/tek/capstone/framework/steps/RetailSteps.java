@@ -108,15 +108,9 @@ public class RetailSteps extends CommonUtility {
 
 	}
 
-	@When("User click on item {string}")
-	public void userClickOnItem(String string) {
-		if (string.equals("kasa outdoor smart plug")) {
-			click(factory.homePage().productKasaPlugButton);
-			logger.info("User click on searched product");
-		} else if (string.equals("Apex Legends")) {
-			click(factory.homePage().productApexLegend);
-			logger.info("User click on searched product");
-		}
+	@When("User click on item")
+	public void userClickOnItem() {
+		click(factory.homePage().productImageClick);
 
 	}
 

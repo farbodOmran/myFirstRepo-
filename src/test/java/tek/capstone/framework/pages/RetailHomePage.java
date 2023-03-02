@@ -64,6 +64,9 @@ public class RetailHomePage extends BaseSetup {
 
 	@FindBy(xpath = "//p[contains(text(),'Kasa Outdoor Smart Plug')]")
 	public WebElement productKasaPlugButton;
+	
+	@FindBy(xpath = "//img[@class='image']")
+	public WebElement productImageClick;
 
 	@FindBy(xpath = "//select[@class='product__select']")
 	public WebElement quantityBar;

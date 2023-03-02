@@ -25,7 +25,7 @@ Feature: This feature is use for testing UI of Retail page
 
   Scenario: Varify User can add an item to cart
     When User click on Sign in option
-    And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@12345'
+    And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456'
     And User click on login button
     And User should be logged in into Account
     And User change the category to 'Smart Home'

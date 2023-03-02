@@ -18,6 +18,9 @@ public class RetailOrderPage extends BaseSetup  {
 	@FindBy (xpath = "(//p[contains(text(),'Show Details')])[1]")
 	public WebElement showDetailButton;
 	
+	@FindBy (xpath = "(//p[@class='order__header-btn'])[2]")
+	public WebElement showDetailButtonTwo;
+	
 	@FindBy (xpath = "(//p[contains(text(),'Hide Details')])[1]")
 	public WebElement hideDetailButton;
 	
@@ -35,6 +38,9 @@ public class RetailOrderPage extends BaseSetup  {
 	
 	@FindBy (xpath = "(//button[@id='returnBtn'])[1]")
 	public WebElement returnButton;
+	
+	@FindBy (xpath = "(//button[@id='returnBtn'])[2]")
+	public WebElement returnButtonTwo;
 	
 	@FindBy (xpath = "//select[@id='dropOffInput']")
 	public WebElement droppOffInputBar;

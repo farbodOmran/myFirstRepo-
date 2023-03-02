@@ -61,7 +61,8 @@ public class OrderSteps extends CommonUtility {
 
 	@When("User click on Return Items button")
 	public void userClickOnReturnItemsButton() {
-		click(factory.orderPage().returnButton);
+		click(factory.orderPage().showDetailButtonTwo);
+		click(factory.orderPage().returnButtonTwo);
 		logger.info("User clicked on return order button");
 
 	}
