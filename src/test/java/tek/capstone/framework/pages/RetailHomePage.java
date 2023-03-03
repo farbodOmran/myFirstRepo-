@@ -62,12 +62,9 @@ public class RetailHomePage extends BaseSetup {
 	@FindBy(xpath = "//select[@class='search__select']")
 	public WebElement categorySelectButton;
 
-	@FindBy(xpath = "//p[contains(text(),'Kasa Outdoor Smart Plug')]")
-	public WebElement productKasaPlugButton;
+	@FindBy(xpath = "//p[@class='products__name']")
+	public WebElement productNameButton;
 	
-	@FindBy(xpath = "//img[@class='image']")
-	public WebElement productImageClick;
-
 	@FindBy(xpath = "//select[@class='product__select']")
 	public WebElement quantityBar;
 
@@ -92,8 +89,7 @@ public class RetailHomePage extends BaseSetup {
 	@FindBy(xpath = "//div[contains(text(),'Order Placed Successfully')]")
 	public WebElement orderPlacedMassageBar;
 	
-	@FindBy(xpath = "//p[contains(text(),'Apex Legends - 1,000 Apex Coins')]")
-	public WebElement productApexLegend;
+	
 	
 	
 

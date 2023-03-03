@@ -1504,3 +1504,58 @@
 2023-03-02 19:23:35,917 [main] INFO logger_File - User select the droppOff location
 2023-03-02 19:23:36,017 [main] INFO logger_File - User clicked on return order button
 2023-03-02 19:23:36,134 [main] INFO logger_File - User successfully return the order and get the return massage
+2023-03-02 19:38:40,321 [main] INFO logger_File - user is on retail website
+2023-03-02 19:38:40,334 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:38:40,484 [main] INFO logger_File - User click on all sidebar button
+2023-03-02 19:38:40,553 [main] INFO logger_File - Electronics is equal to Electronics
+2023-03-02 19:38:40,596 [main] INFO logger_File - Computers is equal to Computers
+2023-03-02 19:38:40,631 [main] INFO logger_File - Smart Home is equal to Smart Home
+2023-03-02 19:38:40,672 [main] INFO logger_File - Sports is equal to Sports
+2023-03-02 19:38:40,719 [main] INFO logger_File - Automative is equal to Automative
+2023-03-02 19:38:42,825 [main] INFO logger_File - user is on retail website
+2023-03-02 19:38:42,826 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:38:43,033 [main] INFO logger_File - User click on all sidebar button
+2023-03-02 19:38:43,183 [main] INFO logger_File - TV & Video is present
+2023-03-02 19:38:43,238 [main] INFO logger_File - Video Games is present
+2023-03-02 19:38:45,405 [main] INFO logger_File - user is on retail website
+2023-03-02 19:38:45,406 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:38:45,494 [main] INFO logger_File - User click on all sidebar button
+2023-03-02 19:38:45,652 [main] INFO logger_File - Accessories is present
+2023-03-02 19:38:45,710 [main] INFO logger_File - Networking is present
+2023-03-02 19:38:47,828 [main] INFO logger_File - user is on retail website
+2023-03-02 19:38:47,828 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:38:47,948 [main] INFO logger_File - User click on all sidebar button
+2023-03-02 19:38:48,152 [main] INFO logger_File - Smart Home Lightning is present
+2023-03-02 19:38:48,210 [main] INFO logger_File - Plugs and Outlets is present
+2023-03-02 19:38:51,528 [main] INFO logger_File - user is on retail website
+2023-03-02 19:38:51,529 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:38:51,619 [main] INFO logger_File - User click on all sidebar button
+2023-03-02 19:38:51,789 [main] INFO logger_File - Athletic Clothing is present
+2023-03-02 19:38:51,843 [main] INFO logger_File - Exercise & Fitness is present
+2023-03-02 19:38:53,884 [main] INFO logger_File - user is on retail website
+2023-03-02 19:38:53,884 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:38:53,970 [main] INFO logger_File - User click on all sidebar button
+2023-03-02 19:38:56,324 [main] INFO logger_File - user is on retail website
+2023-03-02 19:38:56,324 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:38:56,445 [main] INFO logger_File - User click on Sign In Button
+2023-03-02 19:38:56,922 [main] INFO logger_File - User enter email and password in sign in page
+2023-03-02 19:38:57,000 [main] INFO logger_File - User click the log In Button
+2023-03-02 19:38:57,361 [main] INFO logger_File - User change category to Smart Home
+2023-03-02 19:38:57,482 [main] INFO logger_File - User search for specific product
+2023-03-02 19:38:57,561 [main] INFO logger_File - User cclick on search button
+2023-03-02 19:38:59,942 [main] INFO logger_File - user is on retail website
+2023-03-02 19:38:59,943 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:39:00,244 [main] INFO logger_File - User click on Sign In Button
+2023-03-02 19:39:00,690 [main] INFO logger_File - User enter email and password in sign in page
+2023-03-02 19:39:00,779 [main] INFO logger_File - User click the log In Button
+2023-03-02 19:39:01,110 [main] INFO logger_File - User change category to Smart Home
+2023-03-02 19:39:01,226 [main] INFO logger_File - User search for specific product
+2023-03-02 19:39:01,301 [main] INFO logger_File - User cclick on search button
+2023-03-02 19:39:03,795 [main] INFO logger_File - user is on retail website
+2023-03-02 19:39:03,796 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:39:03,919 [main] INFO logger_File - User click on Sign In Button
+2023-03-02 19:39:04,382 [main] INFO logger_File - User enter email and password in sign in page
+2023-03-02 19:39:04,459 [main] INFO logger_File - User click the log In Button
+2023-03-02 19:39:04,828 [main] INFO logger_File - User change category to Smart Home
+2023-03-02 19:39:04,931 [main] INFO logger_File - User search for specific product
+2023-03-02 19:39:05,004 [main] INFO logger_File - User cclick on search button

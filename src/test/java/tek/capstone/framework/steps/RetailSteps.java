@@ -110,7 +110,7 @@ public class RetailSteps extends CommonUtility {
 
 	@When("User click on item")
 	public void userClickOnItem() {
-		click(factory.homePage().productImageClick);
+		click(factory.homePage().productNameButton);
 
 	}
 
