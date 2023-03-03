@@ -1478,3 +1478,29 @@
 2023-03-02 11:50:04,224 - logger_File -INFO - User click on Sign In Button
 2023-03-02 11:50:04,785 - logger_File -INFO - User enter email and password in sign in page
 2023-03-02 11:50:04,874 - logger_File -INFO - User click the log In Button
+2023-03-02 19:18:29,130 - logger_File -INFO - user is on retail website
+2023-03-02 19:18:29,146 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:18:29,337 - logger_File -INFO - User click on Sign In Button
+2023-03-02 19:18:29,847 - logger_File -INFO - User enter email and password in sign in page
+2023-03-02 19:18:29,930 - logger_File -INFO - User click the log In Button
+2023-03-02 19:18:30,514 - logger_File -INFO - User clicked on order button
+2023-03-02 19:18:30,754 - logger_File -INFO - User clicked on first item
+2023-03-02 19:22:30,160 - logger_File -INFO - user is on retail website
+2023-03-02 19:22:30,170 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:22:30,360 - logger_File -INFO - User click on Sign In Button
+2023-03-02 19:22:30,843 - logger_File -INFO - User enter email and password in sign in page
+2023-03-02 19:22:30,925 - logger_File -INFO - User click the log In Button
+2023-03-02 19:22:31,342 - logger_File -INFO - User clicked on order button
+2023-03-02 19:22:31,547 - logger_File -INFO - User clicked on first item
+2023-03-02 19:23:34,011 - logger_File -INFO - user is on retail website
+2023-03-02 19:23:34,036 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-02 19:23:34,253 - logger_File -INFO - User click on Sign In Button
+2023-03-02 19:23:34,772 - logger_File -INFO - User enter email and password in sign in page
+2023-03-02 19:23:34,856 - logger_File -INFO - User click the log In Button
+2023-03-02 19:23:35,270 - logger_File -INFO - User clicked on order button
+2023-03-02 19:23:35,488 - logger_File -INFO - User clicked on first item
+2023-03-02 19:23:35,692 - logger_File -INFO - User clicked on return order button
+2023-03-02 19:23:35,819 - logger_File -INFO - User select the return reson
+2023-03-02 19:23:35,917 - logger_File -INFO - User select the droppOff location
+2023-03-02 19:23:36,017 - logger_File -INFO - User clicked on return order button
+2023-03-02 19:23:36,134 - logger_File -INFO - User successfully return the order and get the return massage
