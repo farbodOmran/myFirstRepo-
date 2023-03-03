@@ -36,9 +36,6 @@ public class RetailOrderPage extends BaseSetup  {
 	@FindBy (xpath = "(//button[@id='returnBtn'])[1]")
 	public WebElement returnButton;
 	
-	@FindBy (xpath = "(//button[@id='returnBtn'])[2]")
-	public WebElement returnButtonTwo;
-	
 	@FindBy (xpath = "//select[@id='dropOffInput']")
 	public WebElement droppOffInputBar;
 	
