@@ -3,7 +3,7 @@ Feature: Sign In Feature
   Background: 
     Given User is on retail website
     When User click on Sign in option
- @test
+ 
   Scenario: Varify user can sign in into Retail Application
     And User enter email 'FARBOD.HASHEMI@TEKSCHOOL.US' and password 'Farbod@123456'
     And User click on login button

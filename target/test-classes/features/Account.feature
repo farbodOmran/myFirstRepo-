@@ -10,7 +10,7 @@ Feature: Retail Account Page
     Then User click on Account option
 
   Scenario: Varify user can update Profile Information
-    And User update Name 'FarbodOmran' and PhoneNumber '4163458723'
+    And User update Name 'FarbodOmran' and PhoneNumber '4163458722'
     And User click on Update Button
     Then User profile information should be updated
 
