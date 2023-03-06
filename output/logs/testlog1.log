@@ -1582,3 +1582,28 @@
 2023-03-03 11:59:31,376 [main] INFO logger_File - user is on retail website
 2023-03-03 11:59:31,377 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
 2023-03-03 11:59:31,569 [main] INFO logger_File - User click on all sidebar button
+2023-03-05 19:45:11,837 [main] INFO logger_File - user is on retail website
+2023-03-05 19:45:11,859 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:45:12,248 [main] INFO logger_File - User click on Sign In Button
+2023-03-05 19:45:13,038 [main] INFO logger_File - User enter email and password in sign in page
+2023-03-05 19:45:13,168 [main] INFO logger_File - User click the log In Button
+2023-03-05 19:45:13,825 [main] INFO logger_File - User click on account button
+2023-03-05 19:45:14,434 [main] INFO logger_File - User write new name and new phone number in name and phone number field
+2023-03-05 19:45:14,616 [main] INFO logger_File - User click the update button
+2023-03-05 19:45:15,470 [main] INFO logger_File - User get Personal Information Updated Successfully massage
+2023-03-05 19:45:18,391 [main] INFO logger_File - user is on retail website
+2023-03-05 19:45:18,392 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:45:18,564 [main] INFO logger_File - User click on Sign In Button
+2023-03-05 19:45:19,201 [main] INFO logger_File - User enter email and password in sign in page
+2023-03-05 19:45:19,308 [main] INFO logger_File - User click the log In Button
+2023-03-05 19:45:19,841 [main] INFO logger_File - User click on account button
+2023-03-05 19:45:20,431 [main] INFO logger_File - user enter new information in change password section
+2023-03-05 19:45:20,538 [main] INFO logger_File - User click on change password button
+2023-03-05 19:45:21,336 [main] INFO logger_File - user can see the massage: Password Updated Successfully
+2023-03-05 19:45:24,334 [main] INFO logger_File - user is on retail website
+2023-03-05 19:45:24,335 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:45:24,515 [main] INFO logger_File - User click on Sign In Button
+2023-03-05 19:45:25,124 [main] INFO logger_File - User enter email and password in sign in page
+2023-03-05 19:45:25,252 [main] INFO logger_File - User click the log In Button
+2023-03-05 19:45:25,731 [main] INFO logger_File - User click on account button
+2023-03-05 19:45:25,899 [main] INFO logger_File - User click on Add a Payment Method

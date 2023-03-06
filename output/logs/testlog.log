@@ -1582,3 +1582,28 @@
 2023-03-03 11:59:31,376 - logger_File -INFO - user is on retail website
 2023-03-03 11:59:31,377 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
 2023-03-03 11:59:31,569 - logger_File -INFO - User click on all sidebar button
+2023-03-05 19:45:11,837 - logger_File -INFO - user is on retail website
+2023-03-05 19:45:11,859 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:45:12,248 - logger_File -INFO - User click on Sign In Button
+2023-03-05 19:45:13,038 - logger_File -INFO - User enter email and password in sign in page
+2023-03-05 19:45:13,168 - logger_File -INFO - User click the log In Button
+2023-03-05 19:45:13,825 - logger_File -INFO - User click on account button
+2023-03-05 19:45:14,434 - logger_File -INFO - User write new name and new phone number in name and phone number field
+2023-03-05 19:45:14,616 - logger_File -INFO - User click the update button
+2023-03-05 19:45:15,470 - logger_File -INFO - User get Personal Information Updated Successfully massage
+2023-03-05 19:45:18,391 - logger_File -INFO - user is on retail website
+2023-03-05 19:45:18,392 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:45:18,564 - logger_File -INFO - User click on Sign In Button
+2023-03-05 19:45:19,201 - logger_File -INFO - User enter email and password in sign in page
+2023-03-05 19:45:19,308 - logger_File -INFO - User click the log In Button
+2023-03-05 19:45:19,841 - logger_File -INFO - User click on account button
+2023-03-05 19:45:20,431 - logger_File -INFO - user enter new information in change password section
+2023-03-05 19:45:20,538 - logger_File -INFO - User click on change password button
+2023-03-05 19:45:21,336 - logger_File -INFO - user can see the massage: Password Updated Successfully
+2023-03-05 19:45:24,334 - logger_File -INFO - user is on retail website
+2023-03-05 19:45:24,335 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:45:24,515 - logger_File -INFO - User click on Sign In Button
+2023-03-05 19:45:25,124 - logger_File -INFO - User enter email and password in sign in page
+2023-03-05 19:45:25,252 - logger_File -INFO - User click the log In Button
+2023-03-05 19:45:25,731 - logger_File -INFO - User click on account button
+2023-03-05 19:45:25,899 - logger_File -INFO - User click on Add a Payment Method

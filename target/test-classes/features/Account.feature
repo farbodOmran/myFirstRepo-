@@ -25,7 +25,7 @@ Feature: Retail Account Page
     When User click on Add a payment method link
     And User fil Debit or Credit card information
       | cardNumber       | nameOnCard   | expirationMonth | expirationYear | securityCode |
-      | 5674235698431246 | farbodomrani |               3 |           2025 |          007 |
+      | 5674235698431229 | farbodomrani |               3 |           2025 |          007 |
     And User click on Add your card button
     Then a massage should be displayed 'Payment Method added successfully'
 
@@ -33,7 +33,7 @@ Feature: Retail Account Page
     When User click on Edit option of card section
     And User edit information with below data
       | CardNumber       | nameOnCard  | expirationMonth | expirationYear | securityCode |
-      | 4546376457623244 | FarbodOmran |               5 |           2028 |          363 |
+      | 4546376457621544 | FarbodOmran |               5 |           2028 |          363 |
     And User click on Update Your Card button
     Then a massage should be displayed 'Payment Method updated Successfully'
 
