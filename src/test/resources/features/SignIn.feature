@@ -14,4 +14,4 @@ Feature: Sign In Feature
     And User click on Create New Account button
     Then User fill the signUp information with below data
       | name          | email                  | password     | confirmPassword |
-      | Farfarfarmran | farvgsfdrkhg@gmail.com | Farfar@12345 | Farfar@12345    |
+      | Farfarfarmran | farvgsfdrkht@gmail.com | Farfar@12345 | Farfar@12345    |

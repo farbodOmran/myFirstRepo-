@@ -1559,3 +1559,26 @@
 2023-03-02 19:39:04,828 [main] INFO logger_File - User change category to Smart Home
 2023-03-02 19:39:04,931 [main] INFO logger_File - User search for specific product
 2023-03-02 19:39:05,004 [main] INFO logger_File - User cclick on search button
+2023-03-03 11:59:20,412 [main] INFO logger_File - user is on retail website
+2023-03-03 11:59:20,428 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-03 11:59:20,574 [main] INFO logger_File - User click on all sidebar button
+2023-03-03 11:59:20,750 [main] INFO logger_File - TV & Video is present
+2023-03-03 11:59:20,816 [main] INFO logger_File - Video Games is present
+2023-03-03 11:59:23,063 [main] INFO logger_File - user is on retail website
+2023-03-03 11:59:23,064 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-03 11:59:23,171 [main] INFO logger_File - User click on all sidebar button
+2023-03-03 11:59:23,336 [main] INFO logger_File - Accessories is present
+2023-03-03 11:59:23,391 [main] INFO logger_File - Networking is present
+2023-03-03 11:59:25,477 [main] INFO logger_File - user is on retail website
+2023-03-03 11:59:25,478 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-03 11:59:25,615 [main] INFO logger_File - User click on all sidebar button
+2023-03-03 11:59:25,821 [main] INFO logger_File - Smart Home Lightning is present
+2023-03-03 11:59:25,890 [main] INFO logger_File - Plugs and Outlets is present
+2023-03-03 11:59:27,985 [main] INFO logger_File - user is on retail website
+2023-03-03 11:59:27,986 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-03 11:59:28,115 [main] INFO logger_File - User click on all sidebar button
+2023-03-03 11:59:28,290 [main] INFO logger_File - Athletic Clothing is present
+2023-03-03 11:59:28,342 [main] INFO logger_File - Exercise & Fitness is present
+2023-03-03 11:59:31,376 [main] INFO logger_File - user is on retail website
+2023-03-03 11:59:31,377 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-03 11:59:31,569 [main] INFO logger_File - User click on all sidebar button
