@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tek.capstone.framework.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 122.154 s - in tek.capstone.framework.runner.TestRunner
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 189.372 s - in tek.capstone.framework.runner.TestRunner

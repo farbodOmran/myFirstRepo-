@@ -15,6 +15,9 @@ public class DataGeneratorUtility {
         System.out.println(data("cardNumber"));
         System.out.println(data("nameOnCard"));
         System.out.println(data("securityCode"));
+        System.out.println(data("password"));
+        System.out.println(data("expirationYear"));
+        System.out.println(data("expirationMonth"));
       
     }
    
@@ -32,7 +35,7 @@ public class DataGeneratorUtility {
 		} else if (input.equals("PhoneNumber")) {
 			outPut = faker.phoneNumber().cellPhone();
 		} else if (input.equals("fullName")) {
-			outPut = faker.name().fullName();
+			outPut = faker.name().name();
 		} else if (input.equals("StreetAddress")) {
 			outPut = faker.address().streetAddress();
 		} else if (input.equals("city")) {
@@ -49,7 +52,16 @@ public class DataGeneratorUtility {
 			outPut = faker.expression("#{numerify '################'}");
 		}else if(input.equals("securityCode")) {
 			outPut = faker.expression("#{numerify '###'}");
+		}else if(input.equals("password")) {
+			outPut = faker.expression("#{numerify 'Tek@#######'}");
+		} else if (input.equals("expirationYear")) {
+			outPut = faker.expression("#{number.number_between '2023','2030'}");
+		}else if (input.equals("expirationMonth")) {
+			outPut = faker.expression("#{number.number_between '1','12'}");
+		}else if (input.equals("nameOnCard")) {
+			outPut = faker.name().fullName();
 		}
+		
 		return outPut;
 	}
 }

@@ -1,4 +1,4 @@
-
+@completeTest
 Feature: Retail Account Page
 
   Background: 
@@ -12,28 +12,33 @@ Feature: Retail Account Page
   Scenario: Varify user can update Profile Information
     And User update Name 'FarbodOmran' and PhoneNumber '4163458724'
     And User click on Update Button
+    And User update Name 'FarbodOmran' and PhoneNumber '4163458722'
+    And User click on Update Button
     Then User profile information should be updated
 
   Scenario: Varify User can Update password
     When User enter below information
-      | value1        | value2       | value3       |
-      | Farbod@123456 | Farbod@123456 | Farbod@123456 |
+      | value1        | value2        | value3        |
+      | Farbod@123456 | Farbod@123457 | Farbod@123457 |
     And User click on Change Password button
     Then a massage should be displayed 'Password Updated Successfully'
-
+    When User enter below information
+      | value1        | value2        | value3        |
+      | Farbod@123457 | Farbod@123456 | Farbod@123456 |
+    And User click on Change Password button
+    Then a massage should be displayed 'Password Updated Successfully'
+@completeTeste
   Scenario: Varify User can add a payment method
     When User click on Add a payment method link
-    And User fil Debit or Credit card information
-      | cardNumber       | nameOnCard   | expirationMonth | expirationYear | securityCode |
-      | 5674235698431229 | farbodomrani |               3 |           2025 |          007 |
+    And User fill Debit or Credit card information
+      | cardNumber | nameOnCard | expirationMonth | expirationYear | securityCode |
     And User click on Add your card button
     Then a massage should be displayed 'Payment Method added successfully'
-
+@completeTeste
   Scenario: Varify User can edit Debit or Credit Card
     When User click on Edit option of card section
     And User edit information with below data
-      | CardNumber       | nameOnCard  | expirationMonth | expirationYear | securityCode |
-      | 4546376457621544 | FarbodOmran |               5 |           2028 |          363 |
+      | cardNumber | nameOnCard | expirationMonth | expirationYear | securityCode |
     And User click on Update Your Card button
     Then a massage should be displayed 'Payment Method updated Successfully'
 

@@ -1,4 +1,4 @@
-
+@completeTest
 Feature: Retail Order Page
 
   Background: 
@@ -23,7 +23,6 @@ Feature: Retail Order Page
     And User click on Return Order button
     Then a cancelation message should be displayed 'Return was successfull'
 
- 
   Scenario: Verify User can write a review on order placed
     And User click on Review button
     And User write Review headline 'headline value' and 'review text'

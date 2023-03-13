@@ -12,7 +12,7 @@ public class RetailOrderPage extends BaseSetup  {
 		PageFactory.initElements(getDriver(), this);
 	}
 
-	@FindBy (id = "orderLink")
+	@FindBy (xpath = "//a[@id='orderLink']")
 	public WebElement orderButton;
 	
 	@FindBy (xpath = "(//p[contains(text(),'Show Details')])[1]")
@@ -21,7 +21,7 @@ public class RetailOrderPage extends BaseSetup  {
 	@FindBy (xpath = "(//p[contains(text(),'Hide Details')])[1]")
 	public WebElement hideDetailButton;
 	
-	@FindBy (xpath = "(//button[@id='cancelBtn'])[1]")
+	@FindBy (xpath = "(//button[@id='cancelBtn'])")
 	public WebElement cancelTheOrderButton;
 	
 	@FindBy (xpath = "//select[@id='reasonInput']")
@@ -32,6 +32,18 @@ public class RetailOrderPage extends BaseSetup  {
 	
 	@FindBy (xpath = "//p[contains(text(),'Your Order Has Been Cancelled')]")
 	public WebElement cancelConformationMassage;
+	
+	@FindBy(xpath = "//button[@id='buyAgainBtn']")
+	public WebElement buyAgainButton;
+	
+	@FindBy(xpath = "//button[@id='placeOrderBtn']" )
+	public WebElement placeOrderButton;
+	
+	@FindBy(xpath = "//div[@class='checkout__address-item-selected checkout__address-item']")
+	public WebElement addressPresentInOrderPage;
+	
+	@FindBy(xpath = "//div[@class=checkout__payment-item-column-image']")
+	public WebElement creditDebitCardPresentInOrderPage;
 	
 	@FindBy (xpath = "(//button[@id='returnBtn'])[1]")
 	public WebElement returnButton;

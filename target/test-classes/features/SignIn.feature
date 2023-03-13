@@ -1,4 +1,4 @@
-
+@completeTest
 Feature: Sign In Feature
 
   Background: 
@@ -13,5 +13,7 @@ Feature: Sign In Feature
   Scenario: Varify user can create an account into Retail Website
     And User click on Create New Account button
     Then User fill the signUp information with below data
-      | name          | email                  | password     | confirmPassword |
-      | Farfarfarmran | farvgsfdrkht@gmail.com | Farfar@12345 | Farfar@12345    |
+      | fullName | email | password    | password    |
+      |          |       | Tek@6583456 | Tek@6583456 |
+    And User click on SignUp button
+    Then User should be logged into account page

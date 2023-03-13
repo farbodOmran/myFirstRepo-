@@ -55,9 +55,8 @@ Feature: This feature is use for testing UI of Retail page
       | country | fullName | PhoneNumber | StreetAddress | apt | city | state | zipCode |
     And User click Add Your Address button
     And User click Add a credit card or Debit Card for Payment method
-    And User fill Debit or credit card information
+    And User fill Debit or Credit card information
       | cardNumber | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | cardNumber | fullName   |              12 |           2025 | securityCode |
     And User click on Add your card button
     And User click on Place Your Order
     Then a message should be displayed 'Order Placed, Thanks'

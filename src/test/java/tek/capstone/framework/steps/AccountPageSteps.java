@@ -68,8 +68,8 @@ public class AccountPageSteps extends CommonUtility {
 	@Then("a massage should be displayed {string}")
 	public void aMassageShouldBeDisplayed(String string) {
 		if (string.equals("Password Updated Successfully")) {
-			waitTillPresence(factory.accountPage().samePasswordMassageBar);
-			Assert.assertTrue(isElementDisplayed(factory.accountPage().samePasswordMassageBar));
+			waitTillPresence(factory.accountPage().changePasswordMassage);
+			Assert.assertTrue(isElementDisplayed(factory.accountPage().changePasswordMassage));
 			logger.info("user can see the massage: Password Updated Successfully");
 		} else if (string.equals("Payment Method added successfully")) {
 			waitTillClickable(factory.accountPage().paymentMethodMassageDidplayed);
@@ -97,16 +97,17 @@ public class AccountPageSteps extends CommonUtility {
 
 	}
 
-	@When("User fil Debit or Credit card information")
-	public void userFilDebitOrCreditCardInformation(DataTable dataTable) {
-		List<Map<String, String>> cardFields = dataTable.asMaps(String.class, String.class);
-		sendText(factory.accountPage().cardNumberField, cardFields.get(0).get("cardNumber"));
-		sendText(factory.accountPage().cardNameField, cardFields.get(0).get("nameOnCard"));
-		Select selectMonth = new Select(factory.accountPage().expirationMonthField);
-		selectMonth.selectByVisibleText(cardFields.get(0).get("expirationMonth"));
-		Select selectYear = new Select(factory.accountPage().expirationYearField);
-		selectYear.selectByValue(cardFields.get(0).get("expirationYear"));
-		sendText(factory.accountPage().securityCodeField, cardFields.get(0).get("securityCode"));
+	@When("User fill Debit or Credit card information")
+	public void userFillDebitOrCreditCardInformation(DataTable dataTable) {
+		List<List<String>> cardFields = dataTable.asLists(String.class);
+		sendText(factory.accountPage().cardNumberField, DataGeneratorUtility.data(cardFields.get(0).get(0)));
+		sendText(factory.accountPage().cardNameField, DataGeneratorUtility.data(cardFields.get(0).get(1)));
+		sendText(factory.accountPage().expirationMonthField,
+				DataGeneratorUtility.data(cardFields.get(0).get(2)));
+		sendText(factory.accountPage().expirationYearField,
+				DataGeneratorUtility.data(cardFields.get(0).get(3)));
+		sendText(factory.accountPage().securityCodeField,
+				DataGeneratorUtility.data(cardFields.get(0).get(4)));
 
 	}
 
@@ -129,14 +130,17 @@ public class AccountPageSteps extends CommonUtility {
 		clearTextUsingSendKeys(factory.accountPage().editExpirationMonthField);
 		clearTextUsingSendKeys(factory.accountPage().editExpirationYearField);
 		clearTextUsingSendKeys(factory.accountPage().editSecurityCodeField);
-		List<Map<String, String>> editCardField = dataTable.asMaps(String.class, String.class);
-		sendText(factory.accountPage().editCardNumberField, editCardField.get(0).get("CardNumber"));
-		sendText(factory.accountPage().editNameOnCardField, editCardField.get(0).get("nameOnCard"));
-		Select editExpirationMonth = new Select(factory.accountPage().editExpirationMonthField);
-		editExpirationMonth.selectByValue(editCardField.get(0).get("expirationMonth"));
-		Select editExpirationYear = new Select(factory.accountPage().editExpirationYearField);
-		editExpirationYear.selectByValue(editCardField.get(0).get("expirationYear"));
-		sendText(factory.accountPage().editSecurityCodeField, editCardField.get(0).get("securityCode"));
+		List<List<String>> editCardField = dataTable.asLists(String.class);
+		sendText(factory.accountPage().editCardNumberField,
+				DataGeneratorUtility.data(editCardField.get(0).get(0)));
+		sendText(factory.accountPage().editNameOnCardField,
+				DataGeneratorUtility.data(editCardField.get(0).get(1)));
+		sendText(factory.accountPage().editExpirationMonthField,
+				DataGeneratorUtility.data(editCardField.get(0).get(2)));
+		sendText(factory.accountPage().editExpirationYearField,
+				DataGeneratorUtility.data(editCardField.get(0).get(3)));
+		sendText(factory.accountPage().editSecurityCodeField,
+				DataGeneratorUtility.data(editCardField.get(0).get(4)));
 		logger.info("User enter new information in edit card field");
 	}
 

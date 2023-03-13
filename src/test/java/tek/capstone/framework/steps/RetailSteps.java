@@ -162,31 +162,21 @@ public class RetailSteps extends CommonUtility {
 	@Then("User click Add a credit card or Debit Card for Payment method")
 	public void userClickAddACreditCardOrDebitCardForPaymentMethod() {
 		click(factory.homePage().addNewPaymentMethodInCheckout);
+	
 	}
-
-	@Then("User fill Debit or credit card information")
-	public void userFillDebitOrCreditCardInformation(DataTable dataTable) {
-		List<Map<String, String>> addNewCard = dataTable.asMaps(String.class, String.class);
-		sendText(factory.accountPage().cardNumberField, DataGeneratorUtility.data(addNewCard.get(0).get("cardNumber")));
-		sendText(factory.accountPage().editNameOnCardField,
-				DataGeneratorUtility.data(addNewCard.get(0).get("nameOnCard")));
-		selectByVisibleText(factory.accountPage().expirationMonthField, addNewCard.get(0).get("expirationMonth"));
-		selectByVisibleText(factory.accountPage().expirationYearField, addNewCard.get(0).get("expirationYear"));
-		sendText(factory.accountPage().securityCodeField,
-				DataGeneratorUtility.data(addNewCard.get(0).get("securityCode")));
-		logger.info("User fill the new credit card");
-	}
-
+	
 	@Then("User click on Place Your Order")
 	public void userClickOnPlaceYourOrder() {
 		click(factory.homePage().pleaceYourOrderButton);
+	
 	}
-
+	
 	@Then("a message should be displayed {string}")
 	public void aMessageShouldBeDisplayedOrderPlacedThanks(String string) {
 		waitTillPresence(factory.homePage().orderPlacedMassageBar);
 		Assert.assertTrue(isElementDisplayed(factory.homePage().orderPlacedMassageBar));
 		logger.info("User Successfully placed the order");
+	
 	}
 
 }
