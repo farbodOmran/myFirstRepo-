@@ -27,14 +27,14 @@ Feature: Retail Account Page
       | Farbod@123457 | Farbod@123456 | Farbod@123456 |
     And User click on Change Password button
     Then a massage should be displayed 'Password Updated Successfully'
-@completeTeste
+
   Scenario: Varify User can add a payment method
     When User click on Add a payment method link
     And User fill Debit or Credit card information
       | cardNumber | nameOnCard | expirationMonth | expirationYear | securityCode |
     And User click on Add your card button
     Then a massage should be displayed 'Payment Method added successfully'
-@completeTeste
+
   Scenario: Varify User can edit Debit or Credit Card
     When User click on Edit option of card section
     And User edit information with below data
