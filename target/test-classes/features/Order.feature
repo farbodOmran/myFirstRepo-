@@ -9,13 +9,13 @@ Feature: Retail Order Page
     And User should be logged in into Account
     And User click on Orders section
     And User click on first order in list
-@completeTeste
+
   Scenario: Verify User can cancel the order
     And User click on Cancel The Order button
     And User select the cancelation Reason 'Bought wrong item'
     And User click on Cancel Order button
     Then a cancelation message should be displayed 'Your Order Has Been Cancelled'
-@completeTeste
+
   Scenario: Verify User can Return the order
     And User click on Return Items button
     And User select the Return Reason 'Item damaged'
