@@ -1,7 +1,6 @@
 package tek.capstone.framework.steps;
 
 import java.util.List;
-import java.util.Map;
 
 import org.junit.Assert;
 import org.openqa.selenium.StaleElementReferenceException;
@@ -11,10 +10,9 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.netty.channel.socket.DatagramChannel;
+
 import tek.capstone.framework.pages.POMFactory;
 import tek.capstone.framework.utilities.CommonUtility;
-import tek.capstone.framework.utilities.DataGeneratorUtility;
 
 public class RetailSteps extends CommonUtility {
 
@@ -162,21 +160,21 @@ public class RetailSteps extends CommonUtility {
 	@Then("User click Add a credit card or Debit Card for Payment method")
 	public void userClickAddACreditCardOrDebitCardForPaymentMethod() {
 		click(factory.homePage().addNewPaymentMethodInCheckout);
-	
+
 	}
-	
+
 	@Then("User click on Place Your Order")
 	public void userClickOnPlaceYourOrder() {
 		click(factory.homePage().pleaceYourOrderButton);
-	
+
 	}
-	
+
 	@Then("a message should be displayed {string}")
 	public void aMessageShouldBeDisplayedOrderPlacedThanks(String string) {
 		waitTillPresence(factory.homePage().orderPlacedMassageBar);
 		Assert.assertTrue(isElementDisplayed(factory.homePage().orderPlacedMassageBar));
 		logger.info("User Successfully placed the order");
-	
+
 	}
 
 }

@@ -1,11 +1,9 @@
 package tek.capstone.framework.steps;
 
-import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.Map;
 
 import org.junit.Assert;
-import org.openqa.selenium.support.ui.Select;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Then;
@@ -102,12 +100,9 @@ public class AccountPageSteps extends CommonUtility {
 		List<List<String>> cardFields = dataTable.asLists(String.class);
 		sendText(factory.accountPage().cardNumberField, DataGeneratorUtility.data(cardFields.get(0).get(0)));
 		sendText(factory.accountPage().cardNameField, DataGeneratorUtility.data(cardFields.get(0).get(1)));
-		sendText(factory.accountPage().expirationMonthField,
-				DataGeneratorUtility.data(cardFields.get(0).get(2)));
-		sendText(factory.accountPage().expirationYearField,
-				DataGeneratorUtility.data(cardFields.get(0).get(3)));
-		sendText(factory.accountPage().securityCodeField,
-				DataGeneratorUtility.data(cardFields.get(0).get(4)));
+		sendText(factory.accountPage().expirationMonthField, DataGeneratorUtility.data(cardFields.get(0).get(2)));
+		sendText(factory.accountPage().expirationYearField, DataGeneratorUtility.data(cardFields.get(0).get(3)));
+		sendText(factory.accountPage().securityCodeField, DataGeneratorUtility.data(cardFields.get(0).get(4)));
 
 	}
 
@@ -131,16 +126,12 @@ public class AccountPageSteps extends CommonUtility {
 		clearTextUsingSendKeys(factory.accountPage().editExpirationYearField);
 		clearTextUsingSendKeys(factory.accountPage().editSecurityCodeField);
 		List<List<String>> editCardField = dataTable.asLists(String.class);
-		sendText(factory.accountPage().editCardNumberField,
-				DataGeneratorUtility.data(editCardField.get(0).get(0)));
-		sendText(factory.accountPage().editNameOnCardField,
-				DataGeneratorUtility.data(editCardField.get(0).get(1)));
+		sendText(factory.accountPage().editCardNumberField, DataGeneratorUtility.data(editCardField.get(0).get(0)));
+		sendText(factory.accountPage().editNameOnCardField, DataGeneratorUtility.data(editCardField.get(0).get(1)));
 		sendText(factory.accountPage().editExpirationMonthField,
 				DataGeneratorUtility.data(editCardField.get(0).get(2)));
-		sendText(factory.accountPage().editExpirationYearField,
-				DataGeneratorUtility.data(editCardField.get(0).get(3)));
-		sendText(factory.accountPage().editSecurityCodeField,
-				DataGeneratorUtility.data(editCardField.get(0).get(4)));
+		sendText(factory.accountPage().editExpirationYearField, DataGeneratorUtility.data(editCardField.get(0).get(3)));
+		sendText(factory.accountPage().editSecurityCodeField, DataGeneratorUtility.data(editCardField.get(0).get(4)));
 		logger.info("User enter new information in edit card field");
 	}
 

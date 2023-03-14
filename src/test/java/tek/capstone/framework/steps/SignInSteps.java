@@ -1,7 +1,6 @@
 package tek.capstone.framework.steps;
 
 import java.util.List;
-import java.util.Map;
 
 import org.junit.Assert;
 
@@ -60,20 +59,21 @@ public class SignInSteps extends CommonUtility {
 		sendText(factory.signInPage().signUpPasswordField, signUpInformation.get(1).get(2));
 		sendText(factory.signInPage().signUpConfirmPassField, signUpInformation.get(1).get(3));
 		logger.info("user filled the signUp information form");
-	
+
 	}
+
 	@Then("User click on SignUp button")
 	public void userClickOnSignUpButton() {
-	    click(factory.signInPage().signUpButton);
-	    logger.info("User clicked on sign up button");
-	
+		click(factory.signInPage().signUpButton);
+		logger.info("User clicked on sign up button");
+
 	}
+
 	@Then("User should be logged into account page")
 	public void userShouldBeLoggedIntoAccountPage() {
 		waitTillPresence(factory.homePage().accountOption);
 		Assert.assertTrue(isElementDisplayed(factory.homePage().accountOption));
-	   
+
 	}
-	
 
 }
