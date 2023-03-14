@@ -27,7 +27,7 @@ public class RetailOrderPage extends BaseSetup  {
 	@FindBy (xpath = "//select[@id='reasonInput']")
 	public WebElement reasonInputBar;
 	
-	@FindBy (xpath = "//button[@class='order__cancel-submit']")
+	@FindBy (xpath = "//button[@id='orderSubmitBtn']")
 	public WebElement cancelOrderButton;
 	
 	@FindBy (xpath = "//p[contains(text(),'Your Order Has Been Cancelled')]")

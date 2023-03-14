@@ -5072,3 +5072,491 @@
 2023-03-12 22:48:56,854 - logger_File -INFO - user click on new account button
 2023-03-12 22:48:57,585 - logger_File -INFO - user filled the signUp information form
 2023-03-12 22:48:57,765 - logger_File -INFO - User clicked on sign up button
+2023-03-13 12:17:14,226 - logger_File -INFO - user is on retail website
+2023-03-13 12:17:14,249 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:17:14,776 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:17:15,412 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:17:15,511 - logger_File -INFO - User click the log In Button
+2023-03-13 12:17:39,829 - logger_File -INFO - user is on retail website
+2023-03-13 12:17:39,830 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:17:39,983 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:17:40,468 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:17:40,544 - logger_File -INFO - User click the log In Button
+2023-03-13 12:18:04,685 - logger_File -INFO - user is on retail website
+2023-03-13 12:18:04,687 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:18:04,944 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:18:05,434 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:18:05,514 - logger_File -INFO - User click the log In Button
+2023-03-13 12:18:29,642 - logger_File -INFO - user is on retail website
+2023-03-13 12:18:29,643 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:18:29,932 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:18:30,446 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:18:30,530 - logger_File -INFO - User click the log In Button
+2023-03-13 12:18:54,573 - logger_File -INFO - user is on retail website
+2023-03-13 12:18:54,573 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:18:54,905 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:18:55,363 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:18:55,443 - logger_File -INFO - User click the log In Button
+2023-03-13 12:19:19,449 - logger_File -INFO - user is on retail website
+2023-03-13 12:19:19,450 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:19:19,756 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:19:20,236 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:19:20,312 - logger_File -INFO - User click the log In Button
+2023-03-13 12:19:44,374 - logger_File -INFO - user is on retail website
+2023-03-13 12:19:44,375 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:19:44,709 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:19:45,169 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:19:45,243 - logger_File -INFO - User click the log In Button
+2023-03-13 12:20:09,202 - logger_File -INFO - user is on retail website
+2023-03-13 12:20:09,202 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:20:09,494 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:20:09,958 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:20:10,038 - logger_File -INFO - User click the log In Button
+2023-03-13 12:26:33,047 - logger_File -INFO - user is on retail website
+2023-03-13 12:26:33,065 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:26:33,345 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:26:33,899 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:26:33,986 - logger_File -INFO - User click the log In Button
+2023-03-13 12:26:34,488 - logger_File -INFO - User click on account button
+2023-03-13 12:26:34,998 - logger_File -INFO - User write new name and new phone number in name and phone number field
+2023-03-13 12:26:35,093 - logger_File -INFO - User click the update button
+2023-03-13 12:26:35,540 - logger_File -INFO - User write new name and new phone number in name and phone number field
+2023-03-13 12:26:35,659 - logger_File -INFO - User click the update button
+2023-03-13 12:26:35,741 - logger_File -INFO - User get Personal Information Updated Successfully massage
+2023-03-13 12:26:39,881 - logger_File -INFO - user is on retail website
+2023-03-13 12:26:39,881 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:26:40,019 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:26:40,486 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:26:40,564 - logger_File -INFO - User click the log In Button
+2023-03-13 12:26:40,984 - logger_File -INFO - User click on account button
+2023-03-13 12:26:41,579 - logger_File -INFO - user enter new information in change password section
+2023-03-13 12:26:41,660 - logger_File -INFO - User click on change password button
+2023-03-13 12:26:42,672 - logger_File -INFO - user can see the massage: Password Updated Successfully
+2023-03-13 12:26:43,055 - logger_File -INFO - user enter new information in change password section
+2023-03-13 12:26:43,123 - logger_File -INFO - User click on change password button
+2023-03-13 12:26:43,163 - logger_File -INFO - user can see the massage: Password Updated Successfully
+2023-03-13 12:26:47,230 - logger_File -INFO - user is on retail website
+2023-03-13 12:26:47,231 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:26:47,413 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:26:47,913 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:26:47,990 - logger_File -INFO - User click the log In Button
+2023-03-13 12:26:48,432 - logger_File -INFO - User click on account button
+2023-03-13 12:26:48,614 - logger_File -INFO - User click on Add a Payment Method
+2023-03-13 12:26:50,340 - logger_File -INFO - user can see the massage: Card added Successfully
+2023-03-13 12:26:54,036 - logger_File -INFO - user is on retail website
+2023-03-13 12:26:54,037 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:26:54,336 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:26:54,819 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:26:54,894 - logger_File -INFO - User click the log In Button
+2023-03-13 12:26:55,334 - logger_File -INFO - User click on account button
+2023-03-13 12:26:56,637 - logger_File -INFO - User enter new information in edit card field
+2023-03-13 12:26:56,715 - logger_File -INFO - User click on update card button
+2023-03-13 12:26:57,469 - logger_File -INFO - User successfully edited Debit or Credit Card information
+2023-03-13 12:27:01,289 - logger_File -INFO - user is on retail website
+2023-03-13 12:27:01,291 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:27:01,546 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:27:02,029 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:27:02,101 - logger_File -INFO - User click the log In Button
+2023-03-13 12:27:02,519 - logger_File -INFO - User click on account button
+2023-03-13 12:27:02,686 - logger_File -INFO - User Click to remove the debit or credit card
+2023-03-13 12:27:02,802 - logger_File -INFO - User clock on remove card button
+2023-03-13 12:27:02,845 - logger_File -INFO - user remove the card successfully
+2023-03-13 12:27:06,683 - logger_File -INFO - user is on retail website
+2023-03-13 12:27:06,684 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:27:06,839 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:27:07,356 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:27:07,431 - logger_File -INFO - User click the log In Button
+2023-03-13 12:27:07,892 - logger_File -INFO - User click on account button
+2023-03-13 12:27:08,090 - logger_File -INFO - User click on add your address option
+2023-03-13 12:27:09,300 - logger_File -INFO - user fill the address section based on faker class data
+2023-03-13 12:27:09,385 - logger_File -INFO - User click on Add Your Address Button
+2023-03-13 12:27:10,031 - logger_File -INFO - User successfully added address
+2023-03-13 12:27:13,747 - logger_File -INFO - user is on retail website
+2023-03-13 12:27:13,747 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:27:14,087 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:27:14,583 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:27:14,664 - logger_File -INFO - User click the log In Button
+2023-03-13 12:27:15,171 - logger_File -INFO - User click on account button
+2023-03-13 12:27:15,412 - logger_File -INFO - User click to edit address
+2023-03-13 12:27:16,815 - logger_File -INFO - User fill the new information for updating address
+2023-03-13 12:27:16,906 - logger_File -INFO - User click on update address button
+2023-03-13 12:27:17,555 - logger_File -INFO - User successfully updatet address
+2023-03-13 12:27:21,377 - logger_File -INFO - user is on retail website
+2023-03-13 12:27:21,378 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:27:21,656 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:27:22,210 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:27:22,281 - logger_File -INFO - User click the log In Button
+2023-03-13 12:27:22,683 - logger_File -INFO - User click on account button
+2023-03-13 12:27:22,831 - logger_File -INFO - User click on remove button on address field to remove address
+2023-03-13 12:27:22,863 - logger_File -INFO - User successfully remove address
+2023-03-13 12:27:26,821 - logger_File -INFO - user is on retail website
+2023-03-13 12:27:26,822 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:27:27,084 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:27:27,522 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:27:27,591 - logger_File -INFO - User click the log In Button
+2023-03-13 12:27:27,924 - logger_File -INFO - User clicked on order button
+2023-03-13 12:27:28,482 - logger_File -INFO - User clicked on first item
+2023-03-13 12:28:13,026 - logger_File -INFO - user is on retail website
+2023-03-13 12:28:13,026 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:28:13,342 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:28:13,791 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:28:13,860 - logger_File -INFO - User click the log In Button
+2023-03-13 12:28:14,215 - logger_File -INFO - User clicked on order button
+2023-03-13 12:28:14,658 - logger_File -INFO - User clicked on first item
+2023-03-13 12:28:59,161 - logger_File -INFO - user is on retail website
+2023-03-13 12:28:59,162 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:28:59,459 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:28:59,957 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:29:00,036 - logger_File -INFO - User click the log In Button
+2023-03-13 12:29:00,429 - logger_File -INFO - User clicked on order button
+2023-03-13 12:29:00,908 - logger_File -INFO - User clicked on first item
+2023-03-13 12:29:01,010 - logger_File -INFO - Userclicked on review button
+2023-03-13 12:29:01,375 - logger_File -INFO - User write a review
+2023-03-13 12:29:01,448 - logger_File -INFO - User clicked on add review button
+2023-03-13 12:29:02,154 - logger_File -INFO - User successfully add review and get the confirmation massage
+2023-03-13 12:29:05,967 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:05,968 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:06,262 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:29:06,334 - logger_File -INFO - Electronics is equal to Electronics
+2023-03-13 12:29:06,368 - logger_File -INFO - Computers is equal to Computers
+2023-03-13 12:29:06,395 - logger_File -INFO - Smart Home is equal to Smart Home
+2023-03-13 12:29:06,423 - logger_File -INFO - Sports is equal to Sports
+2023-03-13 12:29:06,453 - logger_File -INFO - Automative is equal to Automative
+2023-03-13 12:29:10,112 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:10,113 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:10,371 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:29:10,493 - logger_File -INFO - TV & Video is present
+2023-03-13 12:29:10,544 - logger_File -INFO - Video Games is present
+2023-03-13 12:29:14,330 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:14,331 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:14,461 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:29:14,712 - logger_File -INFO - Accessories is present
+2023-03-13 12:29:14,757 - logger_File -INFO - Networking is present
+2023-03-13 12:29:18,445 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:18,445 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:18,682 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:29:18,856 - logger_File -INFO - Smart Home Lightning is present
+2023-03-13 12:29:18,898 - logger_File -INFO - Plugs and Outlets is present
+2023-03-13 12:29:22,759 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:22,760 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:23,032 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:29:23,228 - logger_File -INFO - Athletic Clothing is present
+2023-03-13 12:29:23,271 - logger_File -INFO - Exercise & Fitness is present
+2023-03-13 12:29:26,910 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:26,911 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:27,143 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:29:31,114 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:31,114 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:31,460 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:29:31,942 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:29:32,012 - logger_File -INFO - User click the log In Button
+2023-03-13 12:29:32,338 - logger_File -INFO - User change category to Smart Home
+2023-03-13 12:29:32,465 - logger_File -INFO - User search for specific product
+2023-03-13 12:29:32,538 - logger_File -INFO - User cclick on search button
+2023-03-13 12:29:32,902 - logger_File -INFO - User change the quantity of product
+2023-03-13 12:29:32,990 - logger_File -INFO - User clicked on add to cart button
+2023-03-13 12:29:33,086 - logger_File -INFO - User successfully add 2 product into cart
+2023-03-13 12:29:36,856 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:36,857 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:37,180 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:29:37,652 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:29:37,725 - logger_File -INFO - User click the log In Button
+2023-03-13 12:29:38,108 - logger_File -INFO - User change category to Smart Home
+2023-03-13 12:29:38,237 - logger_File -INFO - User search for specific product
+2023-03-13 12:29:38,306 - logger_File -INFO - User cclick on search button
+2023-03-13 12:29:38,664 - logger_File -INFO - User change the quantity of product
+2023-03-13 12:29:38,790 - logger_File -INFO - User clicked on add to cart button
+2023-03-13 12:29:38,887 - logger_File -INFO - User clicked on Cart Button
+2023-03-13 12:29:39,024 - logger_File -INFO - User clicked on Proceed to Checkout button
+2023-03-13 12:29:39,149 - logger_File -INFO - User clicked on Add New Address Button
+2023-03-13 12:29:40,307 - logger_File -INFO - User fill the new information for updating address
+2023-03-13 12:29:40,402 - logger_File -INFO - User click on Add Your Address Button
+2023-03-13 12:29:42,100 - logger_File -INFO - User Successfully placed the order
+2023-03-13 12:29:45,822 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:45,823 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:46,179 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:29:46,696 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:29:46,769 - logger_File -INFO - User click the log In Button
+2023-03-13 12:29:47,097 - logger_File -INFO - User change category to Smart Home
+2023-03-13 12:29:47,213 - logger_File -INFO - User search for specific product
+2023-03-13 12:29:47,280 - logger_File -INFO - User cclick on search button
+2023-03-13 12:29:47,602 - logger_File -INFO - User change the quantity of product
+2023-03-13 12:29:47,697 - logger_File -INFO - User clicked on add to cart button
+2023-03-13 12:29:47,836 - logger_File -INFO - User clicked on Cart Button
+2023-03-13 12:29:47,971 - logger_File -INFO - User clicked on Proceed to Checkout button
+2023-03-13 12:29:48,838 - logger_File -INFO - User Successfully placed the order
+2023-03-13 12:29:52,608 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:52,608 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:52,903 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:29:53,378 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:29:53,465 - logger_File -INFO - User click the log In Button
+2023-03-13 12:29:57,394 - logger_File -INFO - user is on retail website
+2023-03-13 12:29:57,395 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:29:57,771 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:29:57,866 - logger_File -INFO - user click on new account button
+2023-03-13 12:29:58,406 - logger_File -INFO - user filled the signUp information form
+2023-03-13 12:29:58,484 - logger_File -INFO - User clicked on sign up button
+2023-03-13 12:43:40,433 - logger_File -INFO - user is on retail website
+2023-03-13 12:43:40,452 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:43:40,704 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:43:41,533 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:43:41,693 - logger_File -INFO - User click the log In Button
+2023-03-13 12:43:42,360 - logger_File -INFO - User click on account button
+2023-03-13 12:43:43,262 - logger_File -INFO - User write new name and new phone number in name and phone number field
+2023-03-13 12:43:44,936 - logger_File -INFO - User click the update button
+2023-03-13 12:43:46,006 - logger_File -INFO - User write new name and new phone number in name and phone number field
+2023-03-13 12:43:46,153 - logger_File -INFO - User click the update button
+2023-03-13 12:43:46,267 - logger_File -INFO - User get Personal Information Updated Successfully massage
+2023-03-13 12:43:52,919 - logger_File -INFO - user is on retail website
+2023-03-13 12:43:52,919 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:43:53,150 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:43:53,741 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:43:53,849 - logger_File -INFO - User click the log In Button
+2023-03-13 12:43:54,431 - logger_File -INFO - User click on account button
+2023-03-13 12:43:55,301 - logger_File -INFO - user enter new information in change password section
+2023-03-13 12:43:55,434 - logger_File -INFO - User click on change password button
+2023-03-13 12:43:56,400 - logger_File -INFO - user can see the massage: Password Updated Successfully
+2023-03-13 12:43:56,868 - logger_File -INFO - user enter new information in change password section
+2023-03-13 12:43:56,965 - logger_File -INFO - User click on change password button
+2023-03-13 12:43:57,016 - logger_File -INFO - user can see the massage: Password Updated Successfully
+2023-03-13 12:44:01,964 - logger_File -INFO - user is on retail website
+2023-03-13 12:44:01,965 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:44:02,315 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:44:03,343 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:44:03,476 - logger_File -INFO - User click the log In Button
+2023-03-13 12:44:04,117 - logger_File -INFO - User click on account button
+2023-03-13 12:44:04,358 - logger_File -INFO - User click on Add a Payment Method
+2023-03-13 12:44:06,803 - logger_File -INFO - user can see the massage: Card added Successfully
+2023-03-13 12:44:12,076 - logger_File -INFO - user is on retail website
+2023-03-13 12:44:12,077 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:44:12,295 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:44:13,050 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:44:13,154 - logger_File -INFO - User click the log In Button
+2023-03-13 12:44:13,796 - logger_File -INFO - User click on account button
+2023-03-13 12:44:15,617 - logger_File -INFO - User enter new information in edit card field
+2023-03-13 12:44:15,729 - logger_File -INFO - User click on update card button
+2023-03-13 12:44:16,507 - logger_File -INFO - User successfully edited Debit or Credit Card information
+2023-03-13 12:44:20,445 - logger_File -INFO - user is on retail website
+2023-03-13 12:44:20,445 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:44:20,761 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:44:21,284 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:44:21,376 - logger_File -INFO - User click the log In Button
+2023-03-13 12:44:21,881 - logger_File -INFO - User click on account button
+2023-03-13 12:44:22,047 - logger_File -INFO - User Click to remove the debit or credit card
+2023-03-13 12:44:22,207 - logger_File -INFO - User clock on remove card button
+2023-03-13 12:44:22,254 - logger_File -INFO - user remove the card successfully
+2023-03-13 12:44:26,483 - logger_File -INFO - user is on retail website
+2023-03-13 12:44:26,485 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:44:26,677 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:44:27,273 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:44:27,362 - logger_File -INFO - User click the log In Button
+2023-03-13 12:44:27,825 - logger_File -INFO - User click on account button
+2023-03-13 12:53:57,107 - logger_File -INFO - user is on retail website
+2023-03-13 12:53:57,121 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:53:57,598 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:53:58,149 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:53:58,234 - logger_File -INFO - User click the log In Button
+2023-03-13 12:53:58,686 - logger_File -INFO - User click on account button
+2023-03-13 12:53:59,220 - logger_File -INFO - User write new name and new phone number in name and phone number field
+2023-03-13 12:53:59,311 - logger_File -INFO - User click the update button
+2023-03-13 12:53:59,743 - logger_File -INFO - User write new name and new phone number in name and phone number field
+2023-03-13 12:53:59,894 - logger_File -INFO - User click the update button
+2023-03-13 12:53:59,970 - logger_File -INFO - User get Personal Information Updated Successfully massage
+2023-03-13 12:54:03,882 - logger_File -INFO - user is on retail website
+2023-03-13 12:54:03,883 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:54:04,237 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:54:04,748 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:54:04,830 - logger_File -INFO - User click the log In Button
+2023-03-13 12:54:05,221 - logger_File -INFO - User click on account button
+2023-03-13 12:54:05,812 - logger_File -INFO - user enter new information in change password section
+2023-03-13 12:54:05,893 - logger_File -INFO - User click on change password button
+2023-03-13 12:54:06,891 - logger_File -INFO - user can see the massage: Password Updated Successfully
+2023-03-13 12:54:07,274 - logger_File -INFO - user enter new information in change password section
+2023-03-13 12:54:07,346 - logger_File -INFO - User click on change password button
+2023-03-13 12:54:07,383 - logger_File -INFO - user can see the massage: Password Updated Successfully
+2023-03-13 12:54:11,632 - logger_File -INFO - user is on retail website
+2023-03-13 12:54:11,633 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:54:11,911 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:54:12,395 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:54:12,490 - logger_File -INFO - User click the log In Button
+2023-03-13 12:54:12,962 - logger_File -INFO - User click on account button
+2023-03-13 12:54:13,216 - logger_File -INFO - User click on Add a Payment Method
+2023-03-13 12:54:15,002 - logger_File -INFO - user can see the massage: Card added Successfully
+2023-03-13 12:54:19,092 - logger_File -INFO - user is on retail website
+2023-03-13 12:54:19,093 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:54:19,262 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:54:19,707 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:54:19,781 - logger_File -INFO - User click the log In Button
+2023-03-13 12:54:20,198 - logger_File -INFO - User click on account button
+2023-03-13 12:54:21,500 - logger_File -INFO - User enter new information in edit card field
+2023-03-13 12:54:21,597 - logger_File -INFO - User click on update card button
+2023-03-13 12:54:22,285 - logger_File -INFO - User successfully edited Debit or Credit Card information
+2023-03-13 12:54:26,296 - logger_File -INFO - user is on retail website
+2023-03-13 12:54:26,297 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:54:26,555 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:54:27,050 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:54:27,122 - logger_File -INFO - User click the log In Button
+2023-03-13 12:54:27,516 - logger_File -INFO - User click on account button
+2023-03-13 12:54:27,742 - logger_File -INFO - User Click to remove the debit or credit card
+2023-03-13 12:54:27,878 - logger_File -INFO - User clock on remove card button
+2023-03-13 12:54:27,913 - logger_File -INFO - user remove the card successfully
+2023-03-13 12:54:31,818 - logger_File -INFO - user is on retail website
+2023-03-13 12:54:31,819 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:54:32,135 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:54:32,590 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:54:32,663 - logger_File -INFO - User click the log In Button
+2023-03-13 12:54:33,087 - logger_File -INFO - User click on account button
+2023-03-13 12:54:33,301 - logger_File -INFO - User click on add your address option
+2023-03-13 12:54:34,569 - logger_File -INFO - user fill the address section based on faker class data
+2023-03-13 12:54:34,654 - logger_File -INFO - User click on Add Your Address Button
+2023-03-13 12:54:35,344 - logger_File -INFO - User successfully added address
+2023-03-13 12:54:39,195 - logger_File -INFO - user is on retail website
+2023-03-13 12:54:39,196 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:54:39,543 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:54:40,000 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:54:40,077 - logger_File -INFO - User click the log In Button
+2023-03-13 12:54:40,493 - logger_File -INFO - User click on account button
+2023-03-13 12:54:40,708 - logger_File -INFO - User click to edit address
+2023-03-13 12:54:42,095 - logger_File -INFO - User fill the new information for updating address
+2023-03-13 12:54:42,209 - logger_File -INFO - User click on update address button
+2023-03-13 12:54:42,887 - logger_File -INFO - User successfully updatet address
+2023-03-13 12:54:46,729 - logger_File -INFO - user is on retail website
+2023-03-13 12:54:46,729 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:54:47,174 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:54:47,627 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:54:47,697 - logger_File -INFO - User click the log In Button
+2023-03-13 12:54:48,092 - logger_File -INFO - User click on account button
+2023-03-13 12:54:48,288 - logger_File -INFO - User click on remove button on address field to remove address
+2023-03-13 12:54:48,323 - logger_File -INFO - User successfully remove address
+2023-03-13 12:54:52,274 - logger_File -INFO - user is on retail website
+2023-03-13 12:54:52,275 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:54:52,491 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:54:52,937 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:54:53,005 - logger_File -INFO - User click the log In Button
+2023-03-13 12:54:53,373 - logger_File -INFO - User clicked on order button
+2023-03-13 12:54:53,802 - logger_File -INFO - User clicked on first item
+2023-03-13 12:54:53,993 - logger_File -INFO - User select the return reson
+2023-03-13 12:54:54,075 - logger_File -INFO - User clicked on cancel order button
+2023-03-13 12:54:54,177 - logger_File -INFO - User successfully canceled the order and get the cancelation massage
+2023-03-13 12:54:57,956 - logger_File -INFO - user is on retail website
+2023-03-13 12:54:57,957 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:54:58,172 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:54:58,661 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:54:58,738 - logger_File -INFO - User click the log In Button
+2023-03-13 12:54:59,064 - logger_File -INFO - User clicked on order button
+2023-03-13 12:54:59,495 - logger_File -INFO - User clicked on first item
+2023-03-13 12:55:44,161 - logger_File -INFO - user is on retail website
+2023-03-13 12:55:44,162 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:55:44,466 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:55:44,927 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:55:45,011 - logger_File -INFO - User click the log In Button
+2023-03-13 12:55:45,392 - logger_File -INFO - User clicked on order button
+2023-03-13 12:55:45,928 - logger_File -INFO - User clicked on first item
+2023-03-13 12:55:46,009 - logger_File -INFO - Userclicked on review button
+2023-03-13 12:55:46,278 - logger_File -INFO - User write a review
+2023-03-13 12:55:46,376 - logger_File -INFO - User clicked on add review button
+2023-03-13 12:55:47,062 - logger_File -INFO - User successfully add review and get the confirmation massage
+2023-03-13 12:55:50,747 - logger_File -INFO - user is on retail website
+2023-03-13 12:55:50,747 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:55:51,056 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:55:51,114 - logger_File -INFO - Electronics is equal to Electronics
+2023-03-13 12:55:51,140 - logger_File -INFO - Computers is equal to Computers
+2023-03-13 12:55:51,169 - logger_File -INFO - Smart Home is equal to Smart Home
+2023-03-13 12:55:51,198 - logger_File -INFO - Sports is equal to Sports
+2023-03-13 12:55:51,225 - logger_File -INFO - Automative is equal to Automative
+2023-03-13 12:55:54,981 - logger_File -INFO - user is on retail website
+2023-03-13 12:55:54,981 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:55:55,257 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:55:55,388 - logger_File -INFO - TV & Video is present
+2023-03-13 12:55:55,434 - logger_File -INFO - Video Games is present
+2023-03-13 12:55:59,432 - logger_File -INFO - user is on retail website
+2023-03-13 12:55:59,433 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:55:59,720 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:55:59,861 - logger_File -INFO - Accessories is present
+2023-03-13 12:55:59,912 - logger_File -INFO - Networking is present
+2023-03-13 12:56:04,604 - logger_File -INFO - user is on retail website
+2023-03-13 12:56:04,605 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:56:04,878 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:56:05,018 - logger_File -INFO - Smart Home Lightning is present
+2023-03-13 12:56:05,059 - logger_File -INFO - Plugs and Outlets is present
+2023-03-13 12:56:08,769 - logger_File -INFO - user is on retail website
+2023-03-13 12:56:08,769 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:56:09,047 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:56:09,212 - logger_File -INFO - Athletic Clothing is present
+2023-03-13 12:56:09,253 - logger_File -INFO - Exercise & Fitness is present
+2023-03-13 12:56:12,957 - logger_File -INFO - user is on retail website
+2023-03-13 12:56:12,958 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:56:13,186 - logger_File -INFO - User click on all sidebar button
+2023-03-13 12:56:17,203 - logger_File -INFO - user is on retail website
+2023-03-13 12:56:17,204 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:56:17,602 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:56:18,040 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:56:18,109 - logger_File -INFO - User click the log In Button
+2023-03-13 12:56:18,484 - logger_File -INFO - User change category to Smart Home
+2023-03-13 12:56:18,605 - logger_File -INFO - User search for specific product
+2023-03-13 12:56:18,674 - logger_File -INFO - User cclick on search button
+2023-03-13 12:56:18,996 - logger_File -INFO - User change the quantity of product
+2023-03-13 12:56:19,142 - logger_File -INFO - User clicked on add to cart button
+2023-03-13 12:56:19,282 - logger_File -INFO - User successfully add 2 product into cart
+2023-03-13 12:56:23,284 - logger_File -INFO - user is on retail website
+2023-03-13 12:56:23,285 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:56:23,591 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:56:24,038 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:56:24,111 - logger_File -INFO - User click the log In Button
+2023-03-13 12:56:24,467 - logger_File -INFO - User change category to Smart Home
+2023-03-13 12:56:24,588 - logger_File -INFO - User search for specific product
+2023-03-13 12:56:24,657 - logger_File -INFO - User cclick on search button
+2023-03-13 12:56:24,984 - logger_File -INFO - User change the quantity of product
+2023-03-13 12:56:25,121 - logger_File -INFO - User clicked on add to cart button
+2023-03-13 12:56:25,217 - logger_File -INFO - User clicked on Cart Button
+2023-03-13 12:56:25,353 - logger_File -INFO - User clicked on Proceed to Checkout button
+2023-03-13 12:56:25,479 - logger_File -INFO - User clicked on Add New Address Button
+2023-03-13 12:56:26,724 - logger_File -INFO - User fill the new information for updating address
+2023-03-13 12:56:26,819 - logger_File -INFO - User click on Add Your Address Button
+2023-03-13 12:56:28,472 - logger_File -INFO - User Successfully placed the order
+2023-03-13 12:56:32,277 - logger_File -INFO - user is on retail website
+2023-03-13 12:56:32,277 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:56:32,772 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:56:33,337 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:56:33,433 - logger_File -INFO - User click the log In Button
+2023-03-13 12:56:33,741 - logger_File -INFO - User change category to Smart Home
+2023-03-13 12:56:33,863 - logger_File -INFO - User search for specific product
+2023-03-13 12:56:33,967 - logger_File -INFO - User cclick on search button
+2023-03-13 12:56:34,326 - logger_File -INFO - User change the quantity of product
+2023-03-13 12:56:34,492 - logger_File -INFO - User clicked on add to cart button
+2023-03-13 12:56:34,619 - logger_File -INFO - User clicked on Cart Button
+2023-03-13 12:56:34,773 - logger_File -INFO - User clicked on Proceed to Checkout button
+2023-03-13 12:56:35,695 - logger_File -INFO - User Successfully placed the order
+2023-03-13 12:56:39,474 - logger_File -INFO - user is on retail website
+2023-03-13 12:56:39,475 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:56:39,931 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:56:40,392 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 12:56:40,461 - logger_File -INFO - User click the log In Button
+2023-03-13 12:56:44,504 - logger_File -INFO - user is on retail website
+2023-03-13 12:56:44,505 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 12:56:44,892 - logger_File -INFO - User click on Sign In Button
+2023-03-13 12:56:44,987 - logger_File -INFO - user click on new account button
+2023-03-13 12:56:45,479 - logger_File -INFO - user filled the signUp information form
+2023-03-13 12:56:45,551 - logger_File -INFO - User clicked on sign up button
+2023-03-13 21:24:10,120 - logger_File -INFO - user is on retail website
+2023-03-13 21:24:10,125 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 21:24:10,358 - logger_File -INFO - User click on Sign In Button
+2023-03-13 21:24:11,476 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 21:24:11,600 - logger_File -INFO - User click the log In Button
+2023-03-13 21:24:12,219 - logger_File -INFO - User clicked on order button
+2023-03-13 21:24:12,506 - logger_File -INFO - User clicked on first item
+2023-03-13 21:24:12,802 - logger_File -INFO - User select the return reson
+2023-03-13 21:24:12,908 - logger_File -INFO - User clicked on cancel order button
+2023-03-13 21:24:13,043 - logger_File -INFO - User successfully canceled the order and get the cancelation massage
+2023-03-13 21:24:17,652 - logger_File -INFO - user is on retail website
+2023-03-13 21:24:17,653 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 21:24:17,854 - logger_File -INFO - User click on Sign In Button
+2023-03-13 21:24:18,436 - logger_File -INFO - User enter email and password in sign in page
+2023-03-13 21:24:18,550 - logger_File -INFO - User click the log In Button
+2023-03-13 21:24:19,202 - logger_File -INFO - User clicked on order button
+2023-03-13 21:24:19,475 - logger_File -INFO - User clicked on first item
+2023-03-13 21:24:20,226 - logger_File -INFO - User clicked on return order button
+2023-03-13 21:24:20,377 - logger_File -INFO - User select the return reson
+2023-03-13 21:24:20,554 - logger_File -INFO - User select the droppOff location
+2023-03-13 21:24:20,726 - logger_File -INFO - User clicked on return order button
+2023-03-13 21:24:20,878 - logger_File -INFO - User successfully return the order and get the return massage

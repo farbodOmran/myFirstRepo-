@@ -28,10 +28,10 @@ public class OrderSteps extends CommonUtility {
 
 	@When("User click on Cancel The Order button")
 	public void userClickOnCancelTheOrderButton() {
-		click(factory.orderPage().buyAgainButton);
-		click(factory.orderPage().placeOrderButton);
-		waitTillPresence(factory.orderPage().orderButton);
-		click(factory.orderPage().orderButton);
+//		click(factory.orderPage().buyAgainButton);
+//		click(factory.orderPage().placeOrderButton);
+//		waitTillPresence(factory.orderPage().orderButton);
+//		click(factory.orderPage().orderButton);
 		click(factory.orderPage().cancelTheOrderButton);
 
 	}
