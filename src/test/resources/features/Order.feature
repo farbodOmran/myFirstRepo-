@@ -1,4 +1,4 @@
-@completeTest
+@completeTeste
 Feature: Retail Order Page
 
   Background: 

@@ -1,4 +1,4 @@
-@completeTest
+@completeTeste
 Feature: Sign In Feature
 
   Background: 
