@@ -48,32 +48,32 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@completeTeste", ] ,
+        labels:  [ "@completeTest",  "@completeTeste", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 100.00, ] 
+                data:  [ 0.00,  0.00, ] 
             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 0.00, ] 
+                data:  [ 0.00,  0.00, ] 
             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00, ] 
+                data:  [ 100.00,  100.00, ] 
             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00, ] 
+                data:  [ 0.00,  0.00, ] 
             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00, ] 
+                data:  [ 0.00,  0.00, ] 
             }
         ]
     };
@@ -135,7 +135,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
         <td>1</td>
-      <td>14 Mar 2023, 21:18</td>
+      <td>15 Mar 2023, 11:18</td>
     </tr>
   </tbody>
 </table>
@@ -197,54 +197,71 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
+        <td class="tagname"><a href="report-tag_139543978.html">@completeTest</a></td>
+
+        <td >0</td>
+        <td >0</td>
+        <td     class="skipped"   >3</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">3</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="0">0.000</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
         <td class="tagname"><a href="report-tag_30896153.html">@completeTeste</a></td>
 
-        <td      class="passed"    >9</td>
         <td >0</td>
         <td >0</td>
+        <td     class="skipped"   >3</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">9</td>
+        <td class="total">3</td>
 
-        <td  class="passed"    >2</td>
         <td >0</td>
-        <td class="total">2</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
 
-        <td class="duration" data-value="3984576700">3.984</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="0">0.000</td>
+        <td class="failed">Failed</td>
       </tr>
   </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>9</td>
       <td>0</td>
       <td>0</td>
+      <td>6</td>
       <td>0</td>
       <td>0</td>
-      <td>9</td>
+      <td>6</td>
 
-      <td>2</td>
       <td>0</td>
       <td>2</td>
+      <td>2</td>
 
-      <td class="duration">3.984</td>
-      <td>1</td>
+      <td class="duration">0.000</td>
+      <td>2</td>
     </tr>
     <tr>
       <td></td>
+      <td>0.00%</td>
+      <td>0.00%</td>
       <td>100.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
-      <td>0.00%</td>
-      <td>0.00%</td>
       <td></td>
+      <td>0.00%</td>
       <td>100.00%</td>
+      <td></td>
+      <td></td>
       <td>0.00%</td>
-      <td></td>
-      <td></td>
-      <td>100.00%</td>
     </tr>
   </tfoot>
 </table>

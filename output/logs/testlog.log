@@ -5912,3 +5912,49 @@
 2023-03-14 21:18:51,589 - logger_File -INFO - User select the droppOff location
 2023-03-14 21:18:51,867 - logger_File -INFO - User clicked on return order button
 2023-03-14 21:18:51,919 - logger_File -INFO - User successfully return the order and get the return massage
+2023-03-14 21:41:22,836 - logger_File -INFO - user is on retail website
+2023-03-14 21:41:22,857 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 21:41:23,394 - logger_File -INFO - User click on Sign In Button
+2023-03-14 21:41:23,829 - logger_File -INFO - User enter email and password in sign in page
+2023-03-14 21:41:24,109 - logger_File -INFO - User click the log In Button
+2023-03-14 21:41:24,632 - logger_File -INFO - User click on account button
+2023-03-14 21:41:24,982 - logger_File -INFO - User write new name and new phone number in name and phone number field
+2023-03-14 21:41:25,264 - logger_File -INFO - User click the update button
+2023-03-14 21:41:25,553 - logger_File -INFO - User write new name and new phone number in name and phone number field
+2023-03-14 21:41:25,836 - logger_File -INFO - User click the update button
+2023-03-14 21:41:25,919 - logger_File -INFO - User get Personal Information Updated Successfully massage
+2023-03-14 21:41:33,843 - logger_File -INFO - user is on retail website
+2023-03-14 21:41:33,844 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 21:41:34,307 - logger_File -INFO - User click on Sign In Button
+2023-03-14 21:41:34,705 - logger_File -INFO - User enter email and password in sign in page
+2023-03-14 21:41:34,982 - logger_File -INFO - User click the log In Button
+2023-03-14 21:41:35,518 - logger_File -INFO - User click on account button
+2023-03-14 21:41:35,854 - logger_File -INFO - user enter new information in change password section
+2023-03-14 21:41:36,121 - logger_File -INFO - User click on change password button
+2023-03-14 21:41:36,849 - logger_File -INFO - user can see the massage: Password Updated Successfully
+2023-03-14 21:41:37,128 - logger_File -INFO - user enter new information in change password section
+2023-03-14 21:41:37,391 - logger_File -INFO - User click on change password button
+2023-03-14 21:41:37,464 - logger_File -INFO - user can see the massage: Password Updated Successfully
+2023-03-14 21:41:45,804 - logger_File -INFO - user is on retail website
+2023-03-14 21:41:45,804 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 21:41:46,455 - logger_File -INFO - User click on Sign In Button
+2023-03-14 21:41:46,841 - logger_File -INFO - User enter email and password in sign in page
+2023-03-14 21:41:47,117 - logger_File -INFO - User click the log In Button
+2023-03-14 21:41:47,652 - logger_File -INFO - User click on account button
+2023-03-14 21:41:47,932 - logger_File -INFO - User click on Add a Payment Method
+2023-03-14 21:41:49,553 - logger_File -INFO - user can see the massage: Card added Successfully
+2023-03-14 21:53:51,317 - logger_File -INFO - user is on retail website
+2023-03-14 21:53:51,339 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 21:53:51,797 - logger_File -INFO - User click on Sign In Button
+2023-03-14 21:53:52,246 - logger_File -INFO - User enter email and password in sign in page
+2023-03-14 21:53:52,540 - logger_File -INFO - User click the log In Button
+2023-03-15 10:56:39,999 - logger_File -INFO - user is on retail website
+2023-03-15 10:56:40,020 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-15 10:56:40,551 - logger_File -INFO - User click on Sign In Button
+2023-03-15 10:56:40,917 - logger_File -INFO - User enter email and password in sign in page
+2023-03-15 10:56:41,196 - logger_File -INFO - User click the log In Button
+2023-03-15 11:17:25,127 - logger_File -INFO - user is on retail website
+2023-03-15 11:17:25,141 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-15 11:17:25,344 - logger_File -INFO - User click on Sign In Button
+2023-03-15 11:17:25,848 - logger_File -INFO - User enter email and password in sign in page
+2023-03-15 11:17:25,932 - logger_File -INFO - User click the log In Button
