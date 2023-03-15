@@ -15,7 +15,7 @@ import tek.capstone.framework.utilities.DataGeneratorUtility;
 public class AccountPageSteps extends CommonUtility {
 
 	POMFactory factory = new POMFactory();
-
+	
 	@When("User click on Account option")
 	public void userClickOnAccountOption() {
 		click(factory.homePage().accountOption);
@@ -113,25 +113,27 @@ public class AccountPageSteps extends CommonUtility {
 	}
 
 	@When("User click on Edit option of card section")
-	public void userClickOnEditOptionOfCardSection() {
+	public void userClickOnEditOptionOfCardSection() throws InterruptedException {
 		click(factory.accountPage().cardEditOption);
 		click(factory.accountPage().cardEditButton);
 	}
 
 	@When("User edit information with below data")
-	public void userEditInformationWithBelowData(DataTable dataTable) {
+	public void userEditInformationWithBelowData(DataTable dataTable) throws InterruptedException {
 		clearTextUsingSendKeys(factory.accountPage().editCardNumberField);
 		clearTextUsingSendKeys(factory.accountPage().editNameOnCardField);
-		clearTextUsingSendKeys(factory.accountPage().editExpirationMonthField);
-		clearTextUsingSendKeys(factory.accountPage().editExpirationYearField);
 		clearTextUsingSendKeys(factory.accountPage().editSecurityCodeField);
 		List<List<String>> editCardField = dataTable.asLists(String.class);
-		sendText(factory.accountPage().editCardNumberField, DataGeneratorUtility.data(editCardField.get(0).get(0)));
-		sendText(factory.accountPage().editNameOnCardField, DataGeneratorUtility.data(editCardField.get(0).get(1)));
+		sendText(factory.accountPage().editCardNumberField, 
+				DataGeneratorUtility.data(editCardField.get(0).get(0)));
+		sendText(factory.accountPage().editNameOnCardField, 
+				DataGeneratorUtility.data(editCardField.get(0).get(1)));
 		sendText(factory.accountPage().editExpirationMonthField,
 				DataGeneratorUtility.data(editCardField.get(0).get(2)));
-		sendText(factory.accountPage().editExpirationYearField, DataGeneratorUtility.data(editCardField.get(0).get(3)));
-		sendText(factory.accountPage().editSecurityCodeField, DataGeneratorUtility.data(editCardField.get(0).get(4)));
+		sendText(factory.accountPage().editExpirationYearField, 
+				DataGeneratorUtility.data(editCardField.get(0).get(3)));
+		sendText(factory.accountPage().editSecurityCodeField, 
+				DataGeneratorUtility.data(editCardField.get(0).get(4)));
 		logger.info("User enter new information in edit card field");
 	}
 

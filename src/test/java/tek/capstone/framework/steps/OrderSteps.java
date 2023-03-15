@@ -28,10 +28,9 @@ public class OrderSteps extends CommonUtility {
 
 	@When("User click on Cancel The Order button")
 	public void userClickOnCancelTheOrderButton() {
-//		click(factory.orderPage().buyAgainButton);
-//		click(factory.orderPage().placeOrderButton);
-//		waitTillPresence(factory.orderPage().orderButton);
-//		click(factory.orderPage().orderButton);
+		click(factory.orderPage().buyAgainButton);
+		click(factory.orderPage().placeOrderButton);
+		click(factory.orderPage().orderButton);
 		click(factory.orderPage().cancelTheOrderButton);
 
 	}
@@ -66,7 +65,6 @@ public class OrderSteps extends CommonUtility {
 	public void userClickOnReturnItemsButton() {
 		click(factory.orderPage().buyAgainButton);
 		click(factory.orderPage().placeOrderButton);
-		waitTillPresence(factory.orderPage().orderButton);
 		click(factory.orderPage().orderButton);
 		click(factory.orderPage().returnButton);
 		logger.info("User clicked on return order button");
