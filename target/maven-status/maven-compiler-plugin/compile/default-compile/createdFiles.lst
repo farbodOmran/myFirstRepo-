@@ -1,7 +1,5 @@
 tek\capstone\framework\config\ChromeBrowser.class
 tek\capstone\framework\utilities\DataGeneratorUtility.class
-tek\capstone\framework\config\FireFoxHeadless.class
-tek\capstone\framework\config\EdgeHeadless.class
 tek\capstone\framework\config\FireFoxBrowser.class
 tek\capstone\framework\utilities\FileUtility.class
 tek\capstone\framework\config\ChromeHeadless.class
